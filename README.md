@@ -1,37 +1,71 @@
-# 五笔中英混输
-
-#### 介绍
-中州韵九八版五笔中英混输方案
-
-#### 软件架构
-软件架构说明
 
 
-#### 安装教程
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 使用说明
-
-1.  xxxx
-2.  xxxx
-3.  xxxx
-
-#### 参与贡献
-
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
 
 
-#### 特技
+## 缘起
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+98五笔输入主页：http://www.98wubi.com
+
+五笔输入：https://github.com/yanhuacuo/squirrel-wb98-install
+
+英文输入：https://github.com/BlindingDark/rime-easy-en
+
+
+
+## 修改说明
+
+为适配中英混输，做了如下修改：
+
+1. 将`拼音反查`改为两次`zz`键
+
+1. `金额转换｜农历公历互转` 改为两次`ZZ`键
+
+2. `单字过滤`开启时不过滤英文
+
+4. 中文「单字」下，对英文的输入做了限制：只有在码长大于等于4时才会进入英文的输入匹配
+
+   在码长为1、2、3时不会匹配英文，而码长为4时，五笔汉字的编码能与英文重合的较少
+
+   能极大缓解中英混合输入时对候选框的干扰
+
+3. 为方便出错回改，左右选择方向键恢复左右选择功能
+
+4. 中文「单字」下，添加英文的连续输入增强功能
+
+   - 仅对`wubi98_dz`添加，默认关闭，若需开启，在`wubi98_dz.custom.yaml`中加入
+
+     ```
+     patch:
+       wubi98_dz/split_en: true
+     ```
+   
+7. 英文输入：增加希腊大小写、数学常用符号输入「跟LaTeX中各符号输入相同」
+
+8. 修改「单字」码表
+
+   1. 增加常用三码位（添加在`wubi98_dz.dict.yaml`最未尾）
+
+      ```
+      该	yyn	5093	yynw
+      幺	xxx	6449	xxxx
+      ```
+      
+      这仅是个人习贯，各位不用的，直接删去就行
+   
+
+
+
+## 使用环境
+
+- 系统：Debian 11
+- 桌面：kde
+- 输入法：Fcitx5-Rime
+
+
+
+## 后期改进
+
+现阶段基本可以完美使用，还有些可以改进的地方：
+
+1. 英文连续输入增强功能考虑候选项，只有当没有候选项时才启用连续输入增强，并加入整个输入字符串反馈
+1. 英文改进：存在中文就不匹配，不存在中文才匹配英文

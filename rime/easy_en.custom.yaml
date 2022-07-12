@@ -1,0 +1,5 @@
+patch:
+  easy_en/enable_sentence: false
+  easy_en/use_wordninja_rs: true
+  easy_en/wordninja_rs_path: "~/.local/share/fcitx5/rime/lua/fengci/wordninja"
+  
