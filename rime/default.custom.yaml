@@ -9,4 +9,5 @@ patch:
     - {schema: wubi98_ci}
     - {schema: wubi98_dz}
     - {schema: py}
+    - {schema: wb_spelling}
     - {schema: easy_en}

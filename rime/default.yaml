@@ -6,7 +6,6 @@ config_version: '0.41'
 schema_list:
   - schema: wubi98_ci
   - schema: wubi98_dz
-  - schema: wubi98_U
   - schema: py
   - schema: wb_spelling
 
