@@ -3,10 +3,12 @@ customization:
   distribution_version: 0.86.0
   generator: "Rime::SwitcherSettings"
   modified_time: "Mon Jan  6 23:28:26 2020"
-  rime_version: 1.5.3
+  rime_version: 1.7.3
 patch:
   schema_list:
-    - {schema: wubi98_dz}
     - {schema: wubi98_ci}
+    - {schema: wubi98_dz}
+    - {schema: wubi98_U}
     - {schema: py}
+    - {schema: wb_spelling}
     - {schema: easy_en}

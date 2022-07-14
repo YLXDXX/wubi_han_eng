@@ -1,7 +1,10 @@
+# Rime schema settings
+# encoding: utf-8
+
 schema:
   schema_id: wubi98_ci
   name: "含词"
-  version: "6.0"
+  version: "7.0"
   author:
     - 發明人 王永民
   description: |

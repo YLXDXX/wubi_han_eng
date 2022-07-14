@@ -5,12 +5,9 @@ customization:
   modified_time: "Thu Apr 21 11:05:27 2022"
   rime_version: 1.7.3
 patch:
-  "app_options/chrome.exe":
-    ascii_mode: true
-  "app_options/cmd.exe":
-    ascii_mode: true
-  "app_options/conhost.exe":
-    ascii_mode: true
-  "style/color_scheme": dota_2
+  app_options/chrome.exe: {ascii_mode: true}
+  app_options/cmd.exe: {ascii_mode: true}
+  app_options/conhost.exe: {ascii_mode: true}
+  "style/color_scheme": cool_breeze
   "style/font_face": "98WB-0"
   "style/horizontal": true

@@ -1,0 +1,6 @@
+# Rime table
+#@/db_name	wubi98_U
+#@/db_type	tabledb
+#@/rime_version	1.7.3
+#@/tick	1
+粵	tltn	1
