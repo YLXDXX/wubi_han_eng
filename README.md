@@ -6,7 +6,7 @@
 
 98五笔输入主页：http://www.98wubi.com
 
-五笔输入：https://github.com/yanhuacuo/squirrel-wb98-install
+五笔输入：https://github.com/yanhuacuo/98wubi-weasel
 
 英文输入：https://github.com/BlindingDark/rime-easy-en
 
@@ -46,8 +46,8 @@
    1. 增加常用三码位（添加在`wubi98_dz.dict.yaml`最未尾）
 
       ```
-      该	yyn	5093	yynw
-      幺	xxx	6449	xxxx
+      该	yyn	327955	yynw
+      幺	xxx	329488	xxxx
       ```
       
       这仅是个人习贯，各位不用的，直接删去就行
@@ -61,7 +61,11 @@
 - 桌面：kde
 - 输入法：Fcitx5-Rime
 
+## 更新
 
+- 时间：2022年07月14日
+
+  跟九八五笔资源库的最新内容同步，输入方案版本为`version: "7.0"`
 
 ## 后期改进
 
