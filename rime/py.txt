@@ -1,5 +1,0 @@
-# Rime table
-#@/db_name	py
-#@/db_type	tabledb
-#@/rime_version	1.7.3
-#@/tick	0
