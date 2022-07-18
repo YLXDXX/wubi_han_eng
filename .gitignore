@@ -1,0 +1,10 @@
+## 忽略文件目录
+
+build/
+*.userdb/
+sync/
+
+
+#忽略文件
+wubi98_U*
+*.txt
