@@ -1,9 +1,9 @@
 ## 忽略文件目录
 
-build/
-*.userdb/
-sync/
-
+rime/build/
+rime/*.userdb/
+rime/sync/
+themes/
 
 #忽略文件
 wubi98_U*
