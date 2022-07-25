@@ -160,7 +160,7 @@ recognizer:
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
     zhuyin: "~[a-y]*?$"
     helper: '^help$'
-    han_eng: "^((?!zz)[a-z]){4,}$|^[A-Z][A-Za-z]*$"
+    han_eng: "^(?!zz)([a-z]){4,}$|^[A-Z][A-Za-z]*$"
 history:
   input: zz
   size: 2
