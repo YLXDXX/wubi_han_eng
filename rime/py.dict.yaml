@@ -11,6 +11,8 @@
 name: py
 version: "1.0"
 sort: by_weight
+import_tables:
+  - zhwiki # 导入zhwiki字典
 ...
 鼥	ba	0
 釛	ba	0

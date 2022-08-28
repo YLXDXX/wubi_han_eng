@@ -55,6 +55,8 @@ Goldendict	goldendict	10
 bilibili	bilibili	10
 BiliBili	bilibili	10
 ImageMagick	imagemagick	10
+screenshot	screenshot	10
+
 
 
 #大写希腊字母
@@ -107,6 +109,8 @@ ImageMagick	imagemagick	10
 ω	omega	10
 
 #Miscellaneous symbols
+†	dagger	10
+℘	wp	10
 ∞	infty	10
 ∀	forall	10
 ℜ	Re	10
@@ -161,5 +165,5 @@ ImageMagick	imagemagick	10
 JavaScript	javascript	10
 high-level	highlevel	10
 if else	ifelse	10
-
+eta	eta	10
 

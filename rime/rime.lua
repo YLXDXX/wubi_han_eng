@@ -500,6 +500,57 @@ end
 
 
 
+--下在的两个函数 null_add_translator 和 null_add_filter
+--是在候选项为空的时候，进行输入的英文补全和英文分词
+
+
+--当候选项为空的时候，作补充
+--需在 translator 中加入 - "lua_translator@null_add_translator"
+function null_add_translator(input, seg)
+    --获取键盘上输入的字符串
+    --local inputKeys = env.engine.context.input
+    yield(Candidate("null_add", seg.start, seg._end, input, "   ⌨︎"))
+end
+
+
+--执行系统命令，分词使用
+local function capture(cmd)
+   local f = assert(io.popen(cmd, 'r'))
+   local s = assert(f:read('*a'))
+   f:close()
+   return s
+end
+
+--当候选项为空的时候，作补充
+--需在 filter 中加入 - lua_processor@switch_processor
+function null_add_filter(input, seg, env)
+    local null = {}
+    local num=0
+    for cand in input:iter() do
+       num=num+1
+       if (cand.type == "null_add") then
+          table.insert(null, cand)
+       else
+           if (cand.comment ~= "   ⌨︎ 〕") then
+               --此判断，是为去除拼音反查时的输入字符显示
+               yield(cand)
+           end
+       end
+    end
+    for i, cand in ipairs(null) do
+        if (num == 1) then
+            yield(cand)
+            local auto=capture("~/.local/share/fcitx5/rime/lua/fengci/wordninja" .. " -n '" .. cand.text .. "'")
+            yield(Candidate("null_add", cand.start, cand._end, auto, "  💡"))
+        end
+    end
+end
+
+
+
+
+
+
 
 -- easy_en_enhance_filter: 连续输入增强
 -- 详见 `lua/easy_en.lua`
@@ -508,6 +559,36 @@ easy_en_enhance_filter = easy_en.enhance_filter
 
 
 
+
+
+
+--[[
+
+
+---之前的中英混输的英文分词功能，现有了 null_add 后，已弃
 --- 中英混输的英文分词功能
 local fengci = require("fengci")
 en_fengci = fengci.enhance_filter
+
+--在输入法中设置为
+
+translators:
+    - "lua_translator@en_fengci"
+
+wubi98_dz:
+    split_en: false
+en_fengci:
+  __include: /translator
+  initial_quality: -10
+  enable_sentence: false
+
+
+可通过在 wubi98_dz.custom.yaml 中设置
+
+wubi98_dz/split_en: false
+
+来启用开或关
+
+
+--]]
+

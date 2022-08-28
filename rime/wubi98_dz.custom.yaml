@@ -20,4 +20,3 @@ patch:
   easy_en/enable_sentence: false
   easy_en/tag: han_eng
   easy_en/initial_quality: -1
-  wubi98_dz/split_en: false
