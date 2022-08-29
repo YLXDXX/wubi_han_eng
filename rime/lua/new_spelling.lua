@@ -270,7 +270,7 @@ local function filter(input, env)
 						yield(Candidate(spelling_keyword, cand.start, cand._end, cand.text, comment))
 					end
 				else
-					if script_text:find("^z[a-z]*") and not script_text:find("%p$") or script_text:find("^([%/])[a-z]*") and not script_text:find("%p$") then
+					if script_text:find("^zz[a-z]*") and not script_text:find("%p$") or script_text:find("^([%/])[a-z]*") and not script_text:find("%p$") then
 						-- cand.quality=10  -- 调整权值 "💡"   cand.type:'reverse_lookup'
 						local add_comment=get_tricomment(cand, env)
 						local code_comment=env.code_rvdb:lookup(cand.text)

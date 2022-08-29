@@ -522,7 +522,7 @@ local function capture(cmd)
 end
 
 --当候选项为空的时候，作补充
---需在 filter 中加入 - lua_processor@switch_processor
+--需在 filter 中加入 - lua_filter@null_add_filter
 function null_add_filter(input, seg, env)
     local null = {}
     local num=0
