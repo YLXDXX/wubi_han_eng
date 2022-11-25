@@ -22,7 +22,9 @@ use_preset_vocabulary: false
 Rime	rime	10
 PDF	pdf	10
 LaTeX	latex	10
-xeLaTeX	xelatex	10
+XeLaTeX	xelatex	10
+PdfLaTeX	pdflatex	10
+LuaLaTeX	lualatex	10
 UpLaTeX	uplatex	10
 TeX	tex	10
 TeXStudio	texstudio	10
