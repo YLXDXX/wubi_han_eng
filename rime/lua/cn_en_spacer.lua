@@ -16,7 +16,7 @@ local function is_mixed_cn_en_num(s)
     return s:find("([\228-\233][\128-\191]-)") and s:find("[%a%d]")
 end
 
-local function cn_en_spacer(input, env)
+local function ice_cn_en_spacer(input, env)
     for cand in input:iter() do
         if is_mixed_cn_en_num(cand.text) then
             cand = cand:to_shadow_candidate(cand.type, add_spaces(cand.text), cand.comment)
@@ -25,4 +25,4 @@ local function cn_en_spacer(input, env)
     end
 end
 
-return cn_en_spacer
+return ice_cn_en_spacer

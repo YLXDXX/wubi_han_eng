@@ -110,7 +110,7 @@ local function number_translatorFunc(num)
 end
 
 -- 触发模式为任意大写字母（除了 U，U 用在 Unicode 了）开头，可在 recognizer/patterns 中自定义
-local function number_translator(input, seg)
+local function ice_number_translator(input, seg)
     local str, num, numberPart
     if string.match(input, "^([A-TV-Z]+%d+)(%.?)(%d*)$") ~= nil then
         str = string.gsub(input, "^(%a+)", "")
@@ -124,4 +124,4 @@ local function number_translator(input, seg)
 end
 
 -- print(#number_translatorFunc(3355.433))
-return number_translator
+return ice_number_translator

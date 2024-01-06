@@ -42,7 +42,7 @@ switches:
 # 输入引擎
 engine:
   processors:
-    - lua_processor@select_character      # 以词定字
+    - lua_processor@ice_select_character      # 以词定字
     - ascii_composer
     - recognizer
     - key_binder
@@ -60,25 +60,25 @@ engine:
   translators:
     - punct_translator
     - script_translator
-    - lua_translator@date_translator      # 时间、日期、星期
-    - lua_translator@lunar                # 农历
+    - lua_translator@ice_date_translator      # 时间、日期、星期
+    - lua_translator@ice_lunar                # 农历
     - table_translator@custom_phrase      # 自定义短语 custom_phrase.txt
     - table_translator@melt_eng           # 英文输入
     - reverse_lookup_translator@liangfen  # 反查，两分拼字
-    - lua_translator@unicode              # Unicode
-    - lua_translator@number_translator    # 数字、金额大写
+    - lua_translator@ice_unicode              # Unicode
+    - lua_translator@ice_number_translator    # 数字、金额大写
   filters:
-    - lua_filter@corrector                # 错音错字提示
+    - lua_filter@ice_corrector                # 错音错字提示
     - simplifier@emoji                    # Emoji
     - simplifier@traditionalize           # 简繁切换
-    - lua_filter@v_filter                 # v 模式 symbols 优先（否则是英文优先）
-    - lua_filter@autocap_filter           # 英文自动大写
-    - lua_filter@reduce_english_filter    # 降低部分英语单词在候选项的位置
+    - lua_filter@ice_v_filter                 # v 模式 symbols 优先（否则是英文优先）
+    - lua_filter@ice_autocap_filter           # 英文自动大写
+    - lua_filter@ice_reduce_english_filter    # 降低部分英语单词在候选项的位置
     - uniquifier                          # 去重
 
 
 # Lua 配置: 日期、时间、星期、ISO 8601、时间戳的触发关键字
-date_translator:
+ice_date_translator:
   date: rq       # 日期： 2022-11-29
   time: sj       # 时间： 18:13
   week: xq       # 星期： 星期二
@@ -87,13 +87,13 @@ date_translator:
 
 
 # Lua 配置：农历的触发关键字
-lunar: nl  # 癸卯年（兔）冬月廿一  二〇二四年冬月廿一
+ice_lunar: nl  # 癸卯年（兔）冬月廿一  二〇二四年冬月廿一
 
 
-# Lua 配置：为 corrector 格式化 comment，占位符为 {comment}
+# Lua 配置：为 ice_corrector 格式化 comment，占位符为 {comment}
 # 默认 "{comment}" 输入 hun dun 时会在「馄饨」旁边生成 hún tun 的 comment
 # 例如左右加个括号 "({comment})" 就会变成 (hún tun)
-corrector: "{comment}"
+ice_corrector: "{comment}"
 
 
 # Lua 配置: 降低部分英语单词在候选项的位置。
@@ -105,7 +105,7 @@ corrector: "{comment}"
 # none    不降低任何单词，相当于没有启用这个 Lua
 # custom  自定义，只降低 words 里的
 # （匹配的是编码，不是单词）
-reduce_english_filter:
+ice_reduce_english_filter:
   mode: custom  # all | none | custom
   idx: 2        # 降低到第 idx 个位置
   # 自定义的单词列表，示例列表没有降低部分常用单词，如 and cat mail Mac but bad shit ……
