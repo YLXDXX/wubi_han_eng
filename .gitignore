@@ -3,6 +3,9 @@
 rime/build/
 rime/*.userdb/
 rime/sync/
+rime/wubi98_dz.txt
+rime/wubi98_ci.txt
+rime/wubi98_U.txt
 themes/
 
 #忽略文件

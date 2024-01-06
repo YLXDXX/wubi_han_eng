@@ -1,0 +1,90 @@
+# Rime dictionary
+# mim: set ts=8 sw=8 noet:
+# encoding: utf-8
+#
+# easy_en.my_words - Easy English
+#
+# shui
+#
+# Easy English
+#
+#手动删除了最前面的单字和前字根-abc
+#手动删除了后字根abc- 正则：^[a-zA-Z]+\-\t.+
+#手动删除了zz.*的相关词条，配合五笔反查 正则： \tzz+\t
+
+#英语输入补充
+
+---
+name: easy_en.my_words_A
+version: "0.1"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
+
+Rime	rime	10
+PDF	pdf	10
+LaTeX	latex	10
+XeLaTeX	xelatex	10
+PdfLaTeX	pdflatex	10
+LuaLaTeX	lualatex	10
+UpLaTeX	uplatex	10
+TeX	tex	10
+TeXStudio	texstudio	10
+GIMP	gimp	10
+GUI	gui	10
+OCR	ocr	10
+API	api	10
+Qt	qt	10
+Fcitx	fcitx	10
+Fcitx5	fcitx	10
+Fcitx5-Rime	fcitx	10
+TikZ	tikz	10
+TexLive	texlive	10
+Linux	linux	10
+HTTPS	https	10
+FFmpeg	ffmpeg	10
+Ubuntu	ubuntu	10
+Debian	debian	10
+Deepin	deepin	10
+GitHub	github	10
+Python	python	10
+Gitee	gitee	10
+GitLab	gitlab	10
+UOS	uos	10
+Inkscape	inkscape	10
+WPS	wps	10
+Perl	perl	10
+AdGuard	adguard	10
+GoldenDict	goldendict	10
+bilibili	bilibili	10
+BiliBili	bilibili	10
+ImageMagick	imagemagick	10
+screenshot	screenshot	10
+crsnet.cn	crsnet	10
+ISBN	ISBN	10
+ISBN	isbn	10
+Zotero	zotero	10
+EndNote	endnote	1
+Webinar	Webinar	10
+MathML	MathML	10
+MathML	mathml	10
+de Sitter	deSitter	10
+de Sitter	desitter	10
+ReadMe	readme	10
+ReadMes	readmes	10
+contravariant	contravariant	10
+bremsstrahlung	bremsstrahlung	10
+Mathematica	mathematica	10
+Mathematica	Mathematica	10
+JavaScript	javascript	10
+high-level	highlevel	10
+if else	ifelse	10
+eta	eta	10
+arxiv	arxiv	10
+lognormal	lognormal	10
+log-normal	lognormal	10
+
+
+
+

@@ -1,13 +1,12 @@
 customization:
   distribution_code_name: Weasel
-  distribution_version: 0.14.5
+  distribution_version: 0.15.0.0
   generator: "Weasel::UIStyleSettings"
-  modified_time: "Thu Apr 21 11:05:27 2022"
-  rime_version: 1.7.3
+  modified_time: "Sun Nov 26 01:01:35 2023"
+  rime_version: 1.9.0
 patch:
-  app_options/chrome.exe: {ascii_mode: true}
-  app_options/cmd.exe: {ascii_mode: true}
-  app_options/conhost.exe: {ascii_mode: true}
+  __include: "hot_keys:/patch"
   "style/color_scheme": cool_breeze
   "style/font_face": "98WB-0"
   "style/horizontal": true
+  

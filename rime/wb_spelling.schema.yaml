@@ -4,9 +4,9 @@
 schema:
   schema_id: wb_spelling
   name: "伪方案"
-  version: "2022.06.20"
+  version: "12.28"
   author:
-    - Lua-table by Ace-Who
+    - LuaTable by wubixiaozhu
   description: |
     伪方案，不能打字。
     不要选我，不要修改本方案及配套词典。

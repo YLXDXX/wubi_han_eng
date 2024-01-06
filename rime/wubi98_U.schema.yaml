@@ -12,7 +12,7 @@ schema:
     碼表源自 yanhuacuo
     敲 z 鍵進入拼音反查
   dependencies:
-    - py
+    - rime_ice
 
 switches:
   - name: ascii_mode
@@ -123,7 +123,7 @@ rvl_zhuyin:
 
 reverse_lookup:
   __include: /translator
-  dictionary: py
+  dictionary: rime_ice
   tips: "〔拼音反查〕"
   preedit_format:
     - xform/([nl])v/$1ü/

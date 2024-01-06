@@ -6,9 +6,27 @@
 
 98五笔输入主页：http://www.98wubi.com
 
-五笔输入：https://github.com/yanhuacuo/98wubi-weasel
+五笔输入：https://github.com/yanhuacuo/weasel-data
+
+拼音输入：[https://github.com/iDvel/rime-ice](https://github.com/iDvel/rime-ice)
 
 英文输入：https://github.com/BlindingDark/rime-easy-en
+
+
+
+## 简介
+
+包含 98 五笔中州韵版：
+
+- 单字输入
+- 含词输入
+- 超集输入「含Unicode15.1全部汉字」
+
+另外，将雾凇拼音作为五笔输入的拼音反查方案
+
+另外，加入Easy English方案作为五笔中英混输的英文方案
+
+<img src="./scheme.png" alt="display" style="zoom:60%;" />
 
 
 
@@ -54,6 +72,7 @@
       幺	xxx	329488	xxxx
       文	yyg	327975	yygy
       礼	pyn	343353	pynn
+      作	wth	331337	wth
       ```
       
       纯中文输入，三码显的不太重要，但对于中英混输，关闭了四码上屏和顶格上屏，这时三码的作用就显示出来了。以上仅是个人习贯，各位不用的，直接删去就行
@@ -61,17 +80,27 @@
 
 
 
-## 超集说明
-
-九八五笔资源库的超集「wubi98_U」未正式完成，请谨慎使用「一般情况下也用不到」
-
-
-
 ## 使用环境
 
-- 系统：Debian 11
+- 系统：Debian 12
 - 桌面：kde
 - 输入法：Fcitx5-Rime
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

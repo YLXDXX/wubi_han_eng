@@ -1,15 +1,16 @@
 # Rime default settings
 # encoding: utf-8
 
-config_version: '0.41'
+config_version: '2024-01-06'
 
 schema_list:
   - schema: wubi98_ci
   - schema: wubi98_dz
   - schema: wubi98_U
-  - schema: py
+  - schema: rime_ice               # 雾凇拼音（全拼）
   - schema: wb_spelling
 
+# 方案选单相关
 switcher:
   caption: 〔方案選單〕
   hotkeys:
@@ -27,8 +28,11 @@ switcher:
   abbreviate_options: true
   option_list_separator: '／'
 
+# 菜单
 menu:
-  page_size: 9
+  page_size: 9  # 候选词个数
+  # alternative_select_labels: [ ①, ②, ③, ④, ⑤, ⑥, ⑦, ⑧, ⑨, ⑩ ]  # 修改候选项标签
+  # alternative_select_keys: ASDFGHJKL  # 如编码字符占用数字键，则需另设选字键
 
 punctuator:
   full_shape:

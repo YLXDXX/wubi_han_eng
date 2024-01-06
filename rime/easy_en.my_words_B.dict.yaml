@@ -1,0 +1,141 @@
+# Rime dictionary
+# mim: set ts=8 sw=8 noet:
+# encoding: utf-8
+#
+# easy_en.my_words - Easy English
+#
+# shui
+#
+# Easy English
+#
+#手动删除了最前面的单字和前字根-abc
+#手动删除了后字根abc- 正则：^[a-zA-Z]+\-\t.+
+#手动删除了zz.*的相关词条，配合五笔反查 正则： \tzz+\t
+
+#符号输入相关
+
+---
+name: easy_en.my_words_B
+version: "0.1"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
+
+#大写希腊字母
+
+Γ	Gamma	10
+Δ	Delta	10
+Θ	Theta	10
+Λ	Lambda	10
+Ξ	Xi	10
+Π	Pi	10
+Σ	Sigma	10
+Υ	Upsilon	10
+Φ	Phi	10
+Ψ	Psi	10
+Ω	Omega	10
+
+
+
+#小写希腊字母
+α	alpha	10
+β	beta	10
+γ	gamma	10
+δ	delta	10
+ϵ	epsilon	10
+ε	epsilon	10
+ε	varepsilon	10
+ζ	zeta	10
+η	eta	10
+θ	theta	10
+ϑ	theta	10
+ϑ	vartheta	10
+ι	iota	10
+κ	kappa	10
+λ	lambda	10
+μ	mu	10
+ν	nu	10
+ξ	xi	10
+π	pi	10
+ρ	rho	10
+ϱ	rho	10
+ϱ	varrho	10
+σ	sigma	10
+τ	tau	10
+υ	upsilon	10
+ϕ	phi	10
+φ	phi	10
+φ	varphi	10
+χ	chi	10
+ψ	psi	10
+ω	omega	10
+
+#Miscellaneous symbols
+†	dagger	10
+℘	wp	10
+∞	infty	10
+∞	infinity	10
+∀	forall	10
+ℜ	Re	10
+ℑ	Im	10
+∇	nabla	10
+∃	exists	10
+∄	nexists	10
+∂	partial	10
+∅	emptyset	10
+℘	wp	10
+∁	complement	10
+¬	neg	10
+⋯	cdots	10
+□	square	10
+√	surd	10
+■	blacksquare	10
+△	triangle	10
+
+#Binary Operation/Relation Symbols
+×	times	10
+·	cdot	10
+÷	div	10
+∩	cap	10
+∪	cup	10
+≠	neq	10
+≤	leq	10
+≥	geq	10
+∈	in	10
+⊥	perp	10
+∉	notin	10
+⊂	subset	10
+≃	simeq	10
+≈	approx	10
+∧	wedge	10
+∨	vee	10
+⊕	oplus	10
+⊗	otimes	10
+□	Box	10
+⊠	boxtimes	10
+≡	equiv	10
+≅	cong	10
+
+#希伯来字母
+ℵ	aleph	10
+ℶ	beth	10
+ℸ	daleth	10
+ℷ	gimel	10
+
+#其它符号
+∑	sum	10
+∫	int	10
+∬	iint	10
+∭	iiint	10
+∮	oint	10
+∯	oiint	10
+∰	oiiint	10
+∂	partial	10
+√	sqrt	10
+∝	propto	10
+∠	angle	10
+∴	therefore	10
+∵	because	10
+
+

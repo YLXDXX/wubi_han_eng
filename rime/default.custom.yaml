@@ -9,6 +9,6 @@ patch:
     - {schema: wubi98_ci}
     - {schema: wubi98_dz}
     - {schema: wubi98_U}
-    - {schema: py}
+    - {schema: rime_ice}
     - {schema: wb_spelling}
     - {schema: easy_en}
