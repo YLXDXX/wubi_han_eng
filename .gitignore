@@ -7,6 +7,8 @@ rime/wubi98_dz.txt
 rime/wubi98_ci.txt
 rime/wubi98_U.txt
 themes/
+rime/installation.yaml
+rime/user.yaml
 
 #忽略文件
 *.txt

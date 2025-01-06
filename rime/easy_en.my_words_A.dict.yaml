@@ -25,6 +25,7 @@ use_preset_vocabulary: false
 Rime	rime	10
 PDF	pdf	10
 LaTeX	latex	10
+LaTeX3	latex	10
 XeLaTeX	xelatex	10
 PdfLaTeX	pdflatex	10
 LuaLaTeX	lualatex	10
@@ -72,7 +73,9 @@ MathML	mathml	10
 de Sitter	deSitter	10
 de Sitter	desitter	10
 ReadMe	readme	10
+ReadMe	ReadMe	10
 ReadMes	readmes	10
+ReadMes	ReadMes	10
 contravariant	contravariant	10
 bremsstrahlung	bremsstrahlung	10
 Mathematica	mathematica	10
@@ -80,11 +83,31 @@ Mathematica	Mathematica	10
 JavaScript	javascript	10
 high-level	highlevel	10
 if else	ifelse	10
+else if	elseif	10
 eta	eta	10
 arxiv	arxiv	10
 lognormal	lognormal	10
 log-normal	lognormal	10
+PBHs	pbhs	10
+PBHs	PBHs	10
+PBHs	PBhs	10
+PBHs	Pbhs	10
+PTAs	PTAs	11
+PTAs	PTas	11
+PTAs	Ptas	11
+PTAs	ptas	11
+PTA	PTA	9
+SIGWs	SIGWs	10
+SIGWs	SIGWS	10
+SIGWs	sigws	10
+SGWB	SGWB	10
+SGWBs	SGWBs	10
 
-
-
-
+Golang	golang
+Hugo	hugo
+goto	goto
+TODO	todo
+Dota	dota
+Amazon	amazon
+NASA	nasa
+SOHO	soho

@@ -18,15 +18,15 @@ candidate_keywords={{"简繁","簡繁",trad_keyword},{"拆分","拆分",spelling
 -- --==========================================================--==========================================================
 -- --==========================================================--==========================================================
 -- 拆分数据匹配
-new_spelling = require("new_spelling")
+new_spelling = require("98wubi/new_spelling")
 -- 监控并记录精准造词至文件等，必须配置lua_processor@submit_text_processor
-submit_text_processor = require("Submit_text")
-helper = require("helper")
-switch_processor = require("switcher")
-require("lunarDate")
-require("lunarJq")
-require("lunarGz")
-require("number")
+submit_text_processor = require("98wubi/Submit_text")
+helper = require("98wubi/helper")
+switch_processor = require("98wubi/switcher")
+require("98wubi/lunarDate")
+require("98wubi/lunarJq")
+require("98wubi/lunarGz")
+require("98wubi/number")
 -- --=========================================================;获取Rime程序目录/用户目录/同步目录路径===========================
 -- --==========================================================98资源库http://98wb.ys168.com/===============================
 function GetRimeAllDir()
@@ -192,7 +192,7 @@ function formatRimeDir(FilePath,dirName)
 end
 
 luaDefalutDir=formatRimeDir(RimeDefalutDir,"lua") -- 设置lua脚本文件读取全局默认路径为data\lua目录
-local hotstring_obj=FormatFileContent(luaDefalutDir.."hotstring.txt")  -- 读取hotstring.txt内容并格式化为所需数据格式
+local hotstring_obj=FormatFileContent(luaDefalutDir.."98wubi/hotstring.txt")  -- 读取hotstring.txt内容并格式化为所需数据格式
 -- --====================================================================================================================
 --====================================================================================================================
 function RunScript(cmd, raw) 
@@ -288,7 +288,7 @@ function date_translator(input, seg)
 			}
 		-- Candidate(type, start, end, text, comment)
 		for i =1,#dates do
-			 yield(Candidate(keyword, seg.start, seg._end, dates[i], "〔日期〕"))
+			 yield(Candidate(keyword, seg.start, seg._end, dates[i], border_began .. "日期" .. border_end))
 		end
 		dates = nil
 	end
@@ -299,11 +299,13 @@ function time_translator(input, seg)
 	local keyword = rv_var["time_var"]
 	if (input == keyword) then
 		local times = {
-			os.date("%H:%M:%S")
-			,os.date("%Y-%m-%d " .. format_Time() .. "%I:%M")
+			os.date("%H:%M:%S"),
+			os.time(),
+			os.date("%Y-%m-%d %H:%M:%S"),
+			os.date("%Y-%m-%d " .. format_Time() .. "%I:%M"),
 			}
 		for i =1,#times do
-			yield(Candidate(keyword, seg.start, seg._end, times[i], "〔时间〕"))
+			yield(Candidate(keyword, seg.start, seg._end, times[i], border_began .. "时间" .. border_end))
 		end
 		times = nil
 	end
@@ -314,12 +316,12 @@ function lunar_translator(input, seg)
 	local keyword = rv_var["nl_var"]
 	if (input == keyword) then
 		local lunar = {
-				{Date2LunarDate(os.date("%Y%m%d")) .. JQtest(os.date("%Y%m%d")),"〔公历⇉农历〕"}
-				,{Date2LunarDate(os.date("%Y%m%d")) .. GetLunarSichen(os.date("%H"),1),"〔公历⇉农历〕"}
-				,{lunarJzl(os.date("%Y%m%d%H")),"〔公历⇉干支〕"}
-				,{LunarDate2Date(os.date("%Y%m%d"),0),"〔农历⇉公历〕"}
+				{Date2LunarDate(os.date("%Y%m%d")) .. JQtest(os.date("%Y%m%d")),border_began .. "公历⇉农历" .. border_end}
+				,{Date2LunarDate(os.date("%Y%m%d")) .. GetLunarSichen(os.date("%H"),1),border_began .. "公历⇉农历" .. border_end}
+				,{lunarJzl(os.date("%Y%m%d%H")),border_began .. "公历⇉干支" .. border_end}
+				,{LunarDate2Date(os.date("%Y%m%d"),0),border_began .. "农历⇉公历" .. border_end}
 			}
-		local leapDate={LunarDate2Date(os.date("%Y%m%d"),1).."（闰）","〔农历⇉公历〕"}
+		local leapDate={LunarDate2Date(os.date("%Y%m%d"),1).."（闰）",border_began .. "农历⇉公历" .. border_end}
 		if string.match(leapDate[1],"^(%d+)")~=nil then table.insert(lunar,leapDate) end
 		for i =1,#lunar do
 			yield(Candidate(keyword, seg.start, seg._end, lunar[i][1], lunar[i][2]))
@@ -339,13 +341,13 @@ local function QueryLunarInfo(date)
 		LunarDate=Date2LunarDate(str)  LunarGz=lunarJzl(str)  DateTime=LunarDate2Date(str,0)
 		if LunarGz~=nil then
 			result={
-				{CnDate_translator(string.sub(str,1,8)),"〔中文日期〕"}
-				,{LunarDate,"〔公历⇉农历〕"}
-				,{LunarGz,"〔公历⇉干支〕"}
+				{CnDate_translator(string.sub(str,1,8)),border_began .. "中文日期" .. border_end}
+				,{LunarDate,border_began .. "公历⇉农历" .. border_end}
+				,{LunarGz,border_began .. "公历⇉干支" .. border_end}
 			}
 			if tonumber(string.sub(str,7,8))<31 then
-				table.insert(result,{DateTime,"〔农历⇉公历〕"})
-				local leapDate={LunarDate2Date(str,1).."（闰）","〔农历⇉公历〕"}
+				table.insert(result,{DateTime,border_began .. "农历⇉公历" .. border_end})
+				local leapDate={LunarDate2Date(str,1).."（闰）",border_began .. "农历⇉公历" .. border_end}
 				if string.match(leapDate[1],"^(%d+)")~=nil then table.insert(result,leapDate) end
 			end
 		end
@@ -391,7 +393,7 @@ function week_translator(input, seg)
 			, os.date("%Y年%m月%d日").." "..format_week(0).." "..os.date("%H:%M:%S")
 			}
 		for i =1,#weeks do
-			yield(Candidate(keyword, seg.start, seg._end, weeks[i], "〔星期〕"))
+			yield(Candidate(keyword, seg.start, seg._end, weeks[i], border_began .. "星期" .. border_end))
 		end
 		weeks = nil
 	end
@@ -403,7 +405,7 @@ function Jq_translator(input, seg)
 	if (input == keyword) then
 		local jqs = GetNowTimeJq(os.date("%Y%m%d"))
 		for i =1,#jqs do
-			yield(Candidate(keyword, seg.start, seg._end, jqs[i], "〔节气〕"))
+			yield(Candidate(keyword, seg.start, seg._end, jqs[i], border_began .. "节气" .. border_end))
 		end
 		jqs = nil
 	end
@@ -428,7 +430,7 @@ function longstring_translator(input, seg)	--编码为小写字母开头为过�
 				strings=hotstring_obj[str:lower(str)]
 				if type(strings)== "table" then
 					for i =1,#strings do
-						if strings[i][2]~="" then m="〔".. strings[i][2].."〕" else m="" end
+						if strings[i][2]~="" then m=border_began .. "".. strings[i][2].."" .. border_end else m="" end
 						yield(Candidate(input, seg.start, seg._end, strings[i][1],m))
 					end
 				end
@@ -458,7 +460,7 @@ local function set_switch_keywords(input, seg,env)
 	local trad_mode=env.engine.context:get_option(trad_keyword)
 
 	if input == rv_var.switch_keyword and #candidate_keywords>0 or input == rv_var.switch_schema and #enable_schema_list>0 and trad_mode then
-		if schema_name then segment.prompt =" 〔 当前方案："..schema_name.." 〕" end
+		if schema_name then segment.prompt =" 〔 当前方案："..schema_name.." " .. border_end end
 		local cand =nil
 		local seg_text=""
 		for i =1,#candidate_keywords do
@@ -497,189 +499,3 @@ function time_date(input, seg,env)
 	number_translator(input, seg)
 	set_switch_keywords(input, seg,env)
 end
-
-
-
---下在的两个函数 null_add_translator 和 null_add_filter
---是在候选项为空的时候，进行输入的英文补全和英文分词
-
-
---当候选项为空的时候，作补充
---需在 translator 中加入 - "lua_translator@null_add_translator"
-function null_add_translator(input, seg)
-    --获取键盘上输入的字符串
-    --local inputKeys = env.engine.context.input
-    yield(Candidate("null_add", seg.start, seg._end, input, "   ⌨︎"))
-end
-
-
---执行系统命令，分词使用
-local function capture(cmd)
-   local f = assert(io.popen(cmd, 'r'))
-   local s = assert(f:read('*a'))
-   f:close()
-   return s
-end
-
---当候选项为空的时候，作补充
---需在 filter 中加入 - lua_filter@null_add_filter
-function null_add_filter(input, seg, env)
-    local null = {}
-    local num=0
-    for cand in input:iter() do
-       num=num+1
-       if (cand.type == "null_add") then
-          table.insert(null, cand)
-       else
-           if (cand.comment ~= "   ⌨︎ 〕") then
-               --此判断，是为去除拼音反查时的输入字符显示
-               yield(cand)
-           end
-       end
-    end
-    for i, cand in ipairs(null) do
-        if (num == 1) then
-            yield(cand)
-            local auto=capture("~/.local/share/fcitx5/rime/lua/fengci/wordninja" .. " -n '" .. cand.text .. "'")
-            yield(Candidate("null_add", cand.start, cand._end, auto, "  💡"))
-        end
-    end
-end
-
-
-
-
-
-
-
--- easy_en_enhance_filter: 连续输入增强
--- 详见 `lua/easy_en.lua`
-local easy_en = require("easy_en")
-easy_en_enhance_filter = easy_en.enhance_filter
-
-
-
-
-
-
---[[
-
-
----之前的中英混输的英文分词功能，现有了 null_add 后，已弃
---- 中英混输的英文分词功能
-local fengci = require("fengci")
-en_fengci = fengci.enhance_filter
-
---在输入法中设置为
-
-translators:
-    - "lua_translator@en_fengci"
-
-wubi98_dz:
-    split_en: false
-en_fengci:
-  __include: /translator
-  initial_quality: -10
-  enable_sentence: false
-
-
-可通过在 wubi98_dz.custom.yaml 中设置
-
-wubi98_dz/split_en: false
-
-来启用开或关
-
-
---]]
-
-
---
---
--- 雾凇拼音（全拼）
---
---
-
---这里为处理函数名冲突，雾凇拼音相关的函数名前均加前缀 ice_
-
--- Rime Lua 扩展 https://github.com/hchunhui/librime-lua
--- 文档 https://github.com/hchunhui/librime-lua/wiki/Scripting
-
--- processors:
-
--- 以词定字，可在 default.yaml → key_binder 下配置快捷键，默认为左右中括号 [ ]
-ice_select_character = require("select_character")
-
--- translators:
-
--- 日期时间，可在方案中配置触发关键字。
-ice_date_translator = require("date_translator")
-
--- 农历，可在方案中配置触发关键字。
-ice_lunar = require("lunar")
-
--- Unicode，U 开头
-ice_unicode = require("unicode")
-
--- 数字、人民币大写，R 开头
-ice_number_translator = require("number_translator")
-
--- filters:
-
--- 错音错字提示
--- 关闭此 Lua 时，同时需要关闭 translator/spelling_hints，否则 comment 里都是拼音
-ice_corrector = require("corrector")
-
--- v 模式 symbols 优先（全拼）
-ice_v_filter = require("v_filter")
-
--- 自动大写英文词汇
-ice_autocap_filter = require("autocap_filter")
-
--- 降低部分英语单词在候选项的位置，可在方案中配置要降低的模式和单词
-ice_reduce_english_filter = require("reduce_english_filter")
-
--- 默认未启用：
-
--- 长词优先（全拼）
--- 在 engine/filters 增加 - lua_filter@ice_long_word_filter
--- 在方案里写配置项:
--- 提升 count 个词语，插入到第 idx 个位置。
--- 示例：将 2 个词插入到第 4、5 个候选项，输入 jie 得到「1接 2解 3姐 4饥饿 5极恶」
--- ice_long_word_filter:
---   count: 2
---   idx: 4
---
--- 使用请注意：之前有较多网友反应有内存泄漏，优化过一些但还是偶尔有较高的内存，但并不卡顿也不影响性能，重新部署后即正常
--- 如果要启用，建议放到靠后位置，最后一个放 uniquifier，倒数第二个就放 ice_long_word_filter
-ice_long_word_filter = require("long_word_filter")
-
--- 中英混输词条自动空格
--- 在 engine/filters 增加 - lua_filter@ice_cn_en_spacer
-ice_cn_en_spacer = require("cn_en_spacer")
-
--- 英文词条上屏自动空格
--- 在 engine/filters 增加 - lua_filter@ice_en_spacer
-ice_en_spacer = require("en_spacer")
-
--- 九宫格，将输入框的数字转为对应的拼音或英文，iRime 用，Hamster 不需要。
--- 在 engine/filters 增加 - lua_filter@ice_t9_preedit
-ice_t9_preedit = require("t9_preedit")
-
--- 根据是否在用户词典，在 comment 上加上一个星号 *
--- 在 engine/filters 增加 - lua_filter@is_in_user_dict
--- 在方案里写配置项：
--- ice_is_in_user_dict: true     为输入过的内容加星号
--- ice_is_in_user_dict: false    为未输入过的内容加星号
-ice_is_in_user_dict = require("is_in_user_dict")
-
--- 词条隐藏、降频
--- 在 engine/processors 增加 - lua_processor@ice_cold_word_drop_processor
--- 在 engine/filters 增加 - lua_filter@ice_cold_word_drop_filter
--- 在 key_binder 增加快捷键：
--- turn_down_cand: "Control+j"  # 匹配当前输入码后隐藏指定的候选字词 或候选词条放到第四候选位置
--- drop_cand: "Control+d"       # 强制删词, 无视输入的编码
--- get_record_filername() 函数中仅支持了 Windows、macOS、Linux
-ice_cold_word_drop_processor = require("cold_word_drop.processor")
-ice_cold_word_drop_filter = require("cold_word_drop.filter")
-
-

@@ -70,9 +70,12 @@ use_preset_vocabulary: false
 χ	chi	10
 ψ	psi	10
 ω	omega	10
+ς	varsigma	10
+
 
 #Miscellaneous symbols
 †	dagger	10
+‡	ddagger	10
 ℘	wp	10
 ∞	infty	10
 ∞	infinity	10
@@ -84,10 +87,13 @@ use_preset_vocabulary: false
 ∄	nexists	10
 ∂	partial	10
 ∅	emptyset	10
-℘	wp	10
 ∁	complement	10
 ¬	neg	10
+¬	lnot	10
 ⋯	cdots	10
+…	dots	10
+⋮	vdots	10
+⋱	ddots	10
 □	square	10
 √	surd	10
 ■	blacksquare	10
@@ -109,13 +115,122 @@ use_preset_vocabulary: false
 ≃	simeq	10
 ≈	approx	10
 ∧	wedge	10
+∧	land	10
 ∨	vee	10
+∨	lor	10
 ⊕	oplus	10
 ⊗	otimes	10
 □	Box	10
 ⊠	boxtimes	10
 ≡	equiv	10
 ≅	cong	10
+≪	ll	10
+≫	gg	10
+≐	doteq	10
+≺	prec	10
+≻	succ	10
+∼	sim	10
+⪯	preceq	10
+⪰	succeq	10
+⊃	supset	10
+⊆	subseteq	10
+⊇	supseteq	10
+⊏	sqsubset	10
+⊐	sqsupset	10
+⊑	sqsubseteq	10
+⊒	sqsupseteq	10
+⋈	Join	10
+⋈	bowtie	10
+∋	ni
+∋	owns	10
+⊢	vdash	10
+⊣	dashv	10
+⊨	models	10
+∣	mid	10
+∥	parallel	10
+⌣	smile	10
+⌢	frown	10
+≍	asymp	10
+±	pm	10
+∓	mp	10
+◃	triangleleft	10
+▹	triangleright	10
+⋅	cdot	10
+∖	setminus	10
+⋆	star	10
+∗	ast	10
+⊔	sqcup	10
+⊓	sqcap	10
+∘	circ	10
+∙	bullet	10
+⊖	ominus	10
+⊙	odot	10
+⊘	oslash	10
+◯	bigcirc	10
+⋄	diamond	10
+⊎	uplus	10
+▽	bigtriangledown	10
+⊲	lhd	10
+⊳	rhd	10
+⊴	unlhd	10
+⊵	unrhd	10
+⨿	amalg	10
+≀	wr	10
+
+
+#括号
+⟨	langle	10
+⟩	rangle	10
+⌊	lfloor	10
+⌋	rfloor	10
+∖	backslash	10
+⟮	lgroup	10
+⟯	rgroup	10
+⏐	arrowvert	10
+↑	uparrow	10
+↓	downarrow	10
+↕	updownarrow	10
+⇑	Uparrow	10
+⇓	Downarrow	10
+⇕	Updownarrow	10
+∥	parallel	10
+⌈	lceil	10
+⌉	rceil	10
+⎰	lmoustache	10
+⎱	rmoustache	10
+
+
+#箭头
+←	leftarrow
+←	gets	10
+→	rightarrow
+→	to	10
+⟵	longleftarrow	10
+⟶	longrightarrow	10
+↔	leftrightarrow	10
+⟷	longleftrightarrow	10
+⇐	Leftarrow	10
+⟸	Longleftarrow	10
+⇒	Rightarrow	10
+⟹	Longrightarrow	10
+⇔	Leftrightarrow	10
+⟺	Longleftrightarrow	10
+↦	mapsto	10
+⟼	longmapsto	10
+↗	nearrow	10
+↘	searrow	10
+↙	swarrow	10
+↖	nwarrow	10
+↩	hookleftarrow	10
+↪	hookrightarrow	10
+⇌	rightleftharpoons	10
+⟺	iff	10
+↼	leftharpoonup	10
+⇀	rightharpoonup	10
+↽	leftharpoondown	10
+⇁	rightharpoondown	10
+⇝	leadsto	10
+
 
 #希伯来字母
 ℵ	aleph	10
@@ -131,11 +246,47 @@ use_preset_vocabulary: false
 ∮	oint	10
 ∯	oiint	10
 ∰	oiiint	10
-∂	partial	10
 √	sqrt	10
 ∝	propto	10
 ∠	angle	10
 ∴	therefore	10
 ∵	because	10
+|	vert	10
+ℏ	hbar	10
+ı	imath	10
+ȷ	jmath	10
+ℓ	ell	10
+℧	mho	10
+′	prime	10
+◊	Diamond	10
+⊥	bot	10
+⊤	top	10
+♢	diamondsuit	10
+♡	heartsuit	10
+♣	clubsuit	10
+♠	spadesuit	10
+♭	flat	10
+♮	natural	10
+♯	sharp	10
+§	S	10
 
+
+#其它一些常用符号
+✓	gou	13
+✔	gou	13
+☑	gou	11
+✅	gou	10
+⍻	bangou	10
+⍻	gou	5
+✗	cha	13
+✘	cha	12
+☒	cha	11
+❎	cha	10
+○	quan	13
+●	quan	12
+◯	quan	11
+⭕	quan	10
+☐	box	10
+
+°	du	10
 

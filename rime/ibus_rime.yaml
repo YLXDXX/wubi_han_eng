@@ -1,0 +1,9 @@
+modules:
+  - lua
+plugins:
+  - "librime-lua.so"
+style:
+  fullscreen: false
+  horizontal: false
+  inline_preedit: true
+  preedit_type: composition

@@ -1,5 +1,2 @@
 patch:
-  app_options/chrome.exe: {ascii_mode: true}
-  app_options/cmd.exe: {ascii_mode: true}
-  app_options/conhost.exe: {ascii_mode: true}
-
+  __include: "hot_keys:/patch"

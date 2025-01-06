@@ -2,11 +2,8 @@ customization:
   distribution_code_name: Weasel
   distribution_version: 0.15.0.0
   generator: "Weasel::UIStyleSettings"
-  modified_time: "Sun Nov 26 01:01:35 2023"
-  rime_version: 1.9.0
+  modified_time: "Tue Apr  2 11:27:28 2024"
+  rime_version: 1.11.0
 patch:
   __include: "hot_keys:/patch"
-  "style/color_scheme": cool_breeze
-  "style/font_face": "98WB-0"
-  "style/horizontal": true
-  
+  "style/color_scheme": "amber-2"

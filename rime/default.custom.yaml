@@ -1,14 +1,13 @@
-customization:
-  distribution_code_name: Weasel
-  distribution_version: 0.86.0
-  generator: "Rime::SwitcherSettings"
-  modified_time: "Mon Jan  6 23:28:26 2020"
-  rime_version: 1.7.3
 patch:
-  schema_list:
-    - {schema: wubi98_ci}
-    - {schema: wubi98_dz}
-    - {schema: wubi98_U}
-    - {schema: rime_ice}
-    - {schema: wb_spelling}
-    - {schema: easy_en}
+  menu:
+    alternative_select_labels:
+    - "①"
+    - "②"
+    - "③"
+    - "④"
+    - "⑤"
+    - "⑥"
+    - "⑦"
+    - "⑧"
+    - "⑨"
+    page_size: 6

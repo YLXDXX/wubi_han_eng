@@ -1,0 +1,6 @@
+patch:
+  keyboard:
+    style:
+      fontFace:
+        - name: "PingFangTC-Regular"
+        - url: "98WB-1.otf"
