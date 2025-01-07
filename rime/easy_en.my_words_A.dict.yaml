@@ -6,11 +6,6 @@
 #
 # shui
 #
-# Easy English
-#
-#手动删除了最前面的单字和前字根-abc
-#手动删除了后字根abc- 正则：^[a-zA-Z]+\-\t.+
-#手动删除了zz.*的相关词条，配合五笔反查 正则： \tzz+\t
 
 #英语输入补充
 
@@ -103,11 +98,16 @@ SIGWs	sigws	10
 SGWB	SGWB	10
 SGWBs	SGWBs	10
 
-Golang	golang
-Hugo	hugo
-goto	goto
-TODO	todo
-Dota	dota
-Amazon	amazon
-NASA	nasa
-SOHO	soho
+Golang	golang	10
+Hugo	hugo	10
+goto	goto	10
+TODO	todo	10
+Dota	dota	10
+Amazon	amazon	10
+NASA	nasa	10
+SOHO	soho	10
+kaomoji	kaomoji	10
+OpenCC	opencc	10
+OpenCC	OpenCC	10
+opencc	opencc	10
+
