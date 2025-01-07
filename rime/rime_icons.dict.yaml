@@ -1,0 +1,11 @@
+# Rime dictionary
+# encoding: utf-8
+
+---
+name: rime_icons
+version: "2025-01-07"
+import_tables:
+  - rime_icons/icon_kaomoji
+  - rime_icons/icons_emoji
+...
+

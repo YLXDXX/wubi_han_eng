@@ -10,6 +10,7 @@ schema_list:
   - schema: wubi98_dz
   - schema: easy_en
   - schema: rime_frost             # 白霜拼音（全拼）
+  - schema: rime_icons             # 表情
 
 switcher:
   caption: 〔方案選單〕

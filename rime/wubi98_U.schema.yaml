@@ -9,6 +9,10 @@ schema:
     碼表源自 yanhuacuo
     敲 zz 鍵進入拼音反查
   dependencies:
+   - rime_frost
+   - rime_icons
+   - easy_en
+   - wb_spelling
 switches:
   - name: ascii_mode
     reset: 0
@@ -62,14 +66,17 @@ engine:
     - matcher
     - "affix_segmentor@mkst"
     - "affix_segmentor@rvlk1"
+    - "affix_segmentor@icons"
     - "affix_segmentor@rvl_zhuyin"
     - abc_segmentor
     - punct_segmentor
     - fallback_segmentor
   translators:
     - punct_translator
-    - reverse_lookup_translator
+    - reverse_lookup_translator@py_reverse_lookup
+    - reverse_lookup_translator@icons_reverse_lookup
     - "table_translator@rvlk1"
+    - "table_translator@icons"
     - table_translator
     - "table_translator@fixed"
     - "table_translator@mkst"
@@ -141,7 +148,7 @@ rvl_zhuyin:
   prefix: "~"
   tag: zhuyin
   tips: "〔以形查音〕"
-reverse_lookup:
+py_reverse_lookup:
   db_class: tabledb
   dictionary: rime_frost
   disable_user_dict_for_patterns:
@@ -182,6 +189,47 @@ rvlk1:
   prefix: zz
   tag: rvlk1
   tips: "〔拼音反查〕"
+icons_reverse_lookup:
+  db_class: tabledb
+  dictionary: rime_icons
+  disable_user_dict_for_patterns:
+    - "^zv.*$"
+  enable_charset_filter: false
+  enable_completion: false
+  enable_encoder: false
+  enable_sentence: false
+  enable_user_dict: true
+  encode_commit_history: false
+  initial_quality: 100000
+  max_phrase_length: 4
+  preedit_format:
+    - "xform/([nl])v/$1ü/"
+    - "xform/([nl])ue/$1üe/"
+    - "xform/([jqxy])v/$1u/"
+  tag: icons_2
+  tips: "〔表情反查〕"
+icons:
+  db_class: tabledb
+  dictionary: rime_icons
+  disable_user_dict_for_patterns:
+    - "^zv.*$"
+  enable_charset_filter: false
+  enable_completion: false
+  enable_encoder: false
+  enable_sentence: false
+  enable_user_dict: true
+  encode_commit_history: false
+  extra_tags:
+    - icons_2
+  initial_quality: 100000
+  max_phrase_length: 4
+  preedit_format:
+    - "xform/([nl])v/$1ü/"
+    - "xform/([nl])ue/$1üe/"
+    - "xform/([jqxy])v/$1u/"
+  prefix: zv
+  tag: icons
+  tips: "〔表情反查〕"
 ci_reverse_lookup:
   dictionary: wubi98_U.extended.extended
   tips: "〔五笔滤镜〕"
@@ -201,6 +249,8 @@ recognizer:
     punct: "^/([0-9]0?|[A-Za-z]+)$"
     rvlk1: "^zz[a-z]*$"
     rvlk2: "^zz[a-z]*$"
+    icons: "^zv[a-z]*$"
+    icons_2: "^zv[a-z]*$"
     uppercase: "[A-Z][-_+.'0-9A-Za-z]*$"
     url: "^(www[.]|https?:|ftp[.:]|mailto:|file:).*$|^[a-z]+[.].+$"
     zhuyin: "~[a-y]*?$"
@@ -244,4 +294,4 @@ key_binder:
 punctuator:
   import_preset: symbols
 menu:
-  page_size: 9
+  page_size: 6
