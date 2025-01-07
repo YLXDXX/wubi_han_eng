@@ -8,6 +8,7 @@ rime/wubi98_ci.txt
 rime/wubi98_U.txt
 rime/installation.yaml
 rime/user.yaml
+*-NSConflict-*
 
 #忽略文件
 *.txt
