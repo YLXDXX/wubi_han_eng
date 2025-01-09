@@ -44,7 +44,7 @@
    - 上屏历史「`zz`」
    - 临时拼音「`zz`」
    - 符号系统「`/`」
-   - 节气「`/`」
+   - 节气「`jq`」
    - 日期「`date`」
    - 周历「`week`」
    - 时间「`time`」
@@ -66,10 +66,19 @@
 ## 文件说明
 
 - `extensions`  Gnome 桌面下使用「Ibus-Rime 」，将其放在 `~/.local/share/gnome-shell` 下
+
 - `fonts` 字体文件，显示拆分用
+
 - `themes` KDE 桌面下使用「Fcitx-Rime」，将其放在 `~/.local/share/fcitx5` 下
+
 - `rime` 主文件，放 `~/.config/ibus/` 或 `~/.local/share/fcitx5`
-- `others` 其它：表情与颜文字原数据，及相应处理脚本
+
+- `others` 其它：表情与颜文字原始数据「易于修改」，及相应的处理脚本「生成对应词库文件」
+
+  - 表情的最初数据取自 [rime-emoji](https://github.com/rime/rime-emoji) 和 [emoji6](https://emoji6.com/emojiall) 
+  - 颜文字的最初数据取自于 [rime_kaomoji_dict](https://github.com/aoguai/rime_kaomoji_dict) 和 众多相关网站
+
+  在前人的数据上，进行了一系列优化
 
 
 
@@ -117,6 +126,8 @@
    纯中文输入，三码显的不太重要，但对于中英混输，关闭了四码上屏和顶格上屏，这时三码的作用就显示出来了，而这几个字在日常使用中频率较高，方便中英混输
    
 11. 增加表情和颜文字输入，使用 `zv` 键触发，输入方式为相应拼音
+
+    注意这里并没有采用当前通用的 OpenCC 方式实现，基于如下几点考虑：一是，表情是单个字符，但颜文字中有空格，OpenCC 是以空格作为分隔；二是，五笔单字派，有一些内容并不能很好匹配；三是，减少打字时的干扰，仅以反查方式出现
 
 12. 时间 `time` 增加时间戳「精确到秒」
 
