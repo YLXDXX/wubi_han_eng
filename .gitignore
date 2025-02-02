@@ -11,4 +11,4 @@ rime/user.yaml
 *-NSConflict-*
 
 #忽略文件
-*.txt
+rime/*.txt
