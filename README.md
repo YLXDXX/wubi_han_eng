@@ -18,11 +18,11 @@
 
 - 单字输入
 - 含词输入
-- 超集输入「含Unicode15.1全部汉字」
+- 超集输入「含 Unicode 15.1 全部汉字」
 
 另外，将白霜拼音作为五笔输入的拼音反查方案
 
-另外，加入Easy English方案作为五笔中英混输的英文方案
+另外，加入 Easy English 方案作为五笔中英混输的英文方案
 
 别外，收集表情（emoji）和颜文字（kaomoji），整理加入
 
@@ -57,7 +57,7 @@
    - 帮助菜单「`help`」
 2. 中英混输「四码匹配英文」
 3. 英文连续输入「自动拆分单词」
-4. 常用数学符号输入「LaTeX表达」
+4. 常用数学符号输入「LaTeX 表达」
 5. 白霜拼音反查「可切换至白霜方案」
 6. 表情和颜文字输入「`zv`」
 
@@ -65,7 +65,7 @@
 
 ## 文件说明
 
-- `extensions`  Gnome 桌面下使用「Ibus-Rime 」，将其放在 `~/.local/share/gnome-shell` 下
+- `extensions`  Gnome 桌面下使用「Ibus-Rime」，将其放在 `~/.local/share/gnome-shell` 下
 
 - `fonts` 字体文件，显示拆分用
 
@@ -75,9 +75,10 @@
 
 - `others` 其它：表情与颜文字原始数据「易于修改」，及相应的处理脚本「生成对应词库文件」
 
-  - 表情的最初数据取自 [rime-emoji](https://github.com/rime/rime-emoji) 和 [emoji6](https://emoji6.com/emojiall) 
-  - 颜文字的最初数据取自于 [rime_kaomoji_dict](https://github.com/aoguai/rime_kaomoji_dict) 和 众多相关网站
-
+  - 表情最初数据取自于 [rime-emoji](https://github.com/rime/rime-emoji) 和 [emoji6](https://emoji6.com/emojiall) 和 [wubi-symbols](https://github.com/devome/wubi-symbols)
+  - 颜文字最初数据取自于 [rime_kaomoji_dict](https://github.com/aoguai/rime_kaomoji_dict) 和 众多相关网站
+  - 符号最初数据取自于 [wubi-symbols](https://github.com/devome/wubi-symbols)
+  
   在前人的数据上，进行了一系列优化
 
 
@@ -90,11 +91,11 @@
 
 1. `金额转换｜农历公历互转换` 改为两次`ZZ`键
 
-2. `单字过滤`开启时不过滤英文
+2. `单字过滤` 开启时不过滤英文
 
 4. 中文下，对英文的输入做了限制：只有在码长大于等于4时才会进入英文输入匹配
 
-   在码长为1、2、3时不会匹配英文，而码长为4时，五笔汉字的编码与英文重合较少
+   在码长为 1、2、3 时不会匹配英文，而码长为 4 时，五笔汉字的编码与英文重合较少
 
    能极大缓解中英混合输入时对候选框的干扰
 
@@ -148,18 +149,4 @@
 在 IOS 上使用仓输入法部署本方案时，需将方案内的 `ascii_mode` 模式关闭，即设成 0，在本方案中默为 1，即默认为英文模式，而手机上又缺少 SHIFT 键，会导致无法切换到中文输入
 
 另外，在仓输入法中相要正常显示折拆分符号，需要在方案里，自建 `Fonts` 文件夹，然后将字体拷贝进去，然后在 `hamster.custom.yaml` 中设置相关字体
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
