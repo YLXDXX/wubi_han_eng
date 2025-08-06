@@ -1,0 +1,82 @@
+# Rime dictionary
+# mim: set ts=8 sw=8 noet:
+# encoding: utf-8
+#
+# easy_en.my_words - Easy English
+#
+# shui
+#
+
+#英语输入补充
+#这里是2或3个字母组成的自定义单词
+
+---
+name: easy_en.my_words_C
+version: "0.1"
+sort: by_weight
+use_preset_vocabulary: false
+...
+
+
+PDF	pdf	10
+PDF	PDF	10
+TeX	tex	10
+TeX	TeX	10
+GUI	gui	10
+GUI	GUI	10
+OCR	ocr	10
+OCR	OCR	10
+API	api	10
+API	API	10
+Qt	qt	10
+Qt	Qt	10
+UOS	uos	10
+UOS	UOS	10
+WPS	wps	10
+WPS	WPS	10
+eta	eta	10
+PTA	PTA	9
+PTA	pta	9
+
+USB	usb	10
+USB	USB	10
+SSD	ssd	10
+SSD	SSD	10
+RAM	ram	10
+RAM	RAM	10
+CPU	cpu	10
+CPU	CPU	10
+GPU	gpu	10
+GPU	GPU	10
+AI	ai	10
+AI	AI	10
+VR	vr	10
+VR	VR	10
+AR	ar	10
+AR	AR	10
+VPN	vpn	10
+VPN	VPN	10
+WAN	wan	10
+WAN	WAN	10
+LAN	lan	10
+LAN	LAN	10
+DNS	dns	10
+DNS	DNS	10
+IP	ip	10
+IP	IP	10
+URL	url	10
+URL	URL	10
+CLI	cli	10
+CLI	CLI	10
+Git	git	10
+Git	Git	10
+JS	js	10
+JS	JS	10
+CSS	css	10
+CSS	CSS	10
+IDE	ide	10
+IDE	IDE	10
+VIP	vip	10
+VIP	VIP	10
+
+

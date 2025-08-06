@@ -1,0 +1,2518 @@
+# Rime dictionary
+# encoding: utf-8
+#
+#
+---
+name: icon_symbols
+version: "2025-08-06"
+sort: by_weight
+...
+
+	n	1
+	pin yin zi mu	1
+	n	1
+	pin yin zi mu	1
+ǜ	v	1
+ǜ	pin yin zi mu	1
+ǚ	v	1
+ǚ	pin yin zi mu	1
+ǘ	v	1
+ǘ	pin yin zi mu	1
+ǖ	v	1
+ǖ	pin yin zi mu	1
+ǔ	u	1
+ǔ	pin yin zi mu	1
+ǒ	o	1
+ǒ	pin yin zi mu	1
+ǐ	i	1
+ǐ	pin yin zi mu	1
+ǎ	a	1
+ǎ	pin yin zi mu	1
+ū	u	1
+ū	uu	1
+ū	la ding zi mu	1
+ū	pin yin zi mu	1
+ō	o	1
+ō	oo	1
+ō	la ding zi mu	1
+ō	pin yin zi mu	1
+ň	n	1
+ň	nn	1
+ň	la ding zi mu	1
+ň	pin yin zi mu	1
+ń	n	1
+ń	nn	1
+ń	la ding zi mu	1
+ń	pin yin zi mu	1
+ī	i	1
+ī	ii	1
+ī	la ding zi mu	1
+ī	pin yin zi mu	1
+ě	e	1
+ě	ee	1
+ě	la ding zi mu	1
+ě	pin yin zi mu	1
+ē	e	1
+ē	ee	1
+ē	la ding zi mu	1
+ē	pin yin zi mu	1
+ā	a	1
+ā	aa	1
+ā	la ding zi mu	1
+ā	pin yin zi mu	1
+ú	u	1
+ú	pin yin zi mu	1
+ù	u	1
+ù	pin yin zi mu	1
+ó	o	1
+ó	pin yin zi mu	1
+ò	o	1
+ò	pin yin zi mu	1
+í	i	1
+í	pin yin zi mu	1
+ì	i	1
+ì	pin yin zi mu	1
+ê	e	1
+ê	pin yin zi mu	1
+é	e	1
+é	pin yin zi mu	1
+è	e	1
+è	pin yin zi mu	1
+á	a	1
+á	pin yin zi mu	1
+à	a	1
+à	pin yin zi mu	1
+￥	jpy	1
+￥	ri yuan	1
+﷼	irr	1
+﷼	li ya er	1
+₿	bitcoin	1
+₿	bi te bi	1
+₾	gel	1
+₾	la li	1
+₽	rub	1
+₽	e luo si lu bu	1
+₽	lu bu	1
+₼	axn	1
+₼	ma na te	1
+ƒ	awg	1
+ƒ	he lan dun	1
+ƒ	a lu ba he lan dun	1
+؋	afn	1
+؋	a fu han ni	1
+₻	bei ou ma ke	1
+₺	try	1
+₺	tu er qi li la	1
+₺	li la	1
+₹	inr	1
+₹	lu bi	1
+₹	yin du lu bi	1
+₸	kxt	1
+₸	jian ge	1
+₶	li fu er	1
+₵	ghs	1
+₵	sai di	1
+₴	uah	1
+₴	ge li fu na	1
+₳	ao si te la er	1
+₲	pyg	1
+₲	gua la ni	1
+₱	php	1
+₱	bi suo	1
+₱	fei lv bin bi suo	1
+₰	bian shi	1
+₰	de guo bian shi	1
+₯	de la ke ma	1
+₮	mnt	1
+₮	tu ge li ke	1
+₭	lak	1
+₭	ji pu	1
+€	eur	1
+€	ou yuan	1
+₫	vnd	1
+₫	yue nan dun	1
+₪	ils	1
+₪	xie ke er	1
+₩	krw	1
+₩	han yuan	1
+₨	pkr	1
+₨	lu bi	1
+₧	bi sai ta	1
+₦	ngn	1
+₦	nai la	1
+₥	mi er	1
+₤	li la	1
+₤	ma er ta li la	1
+₣	fa guo fa lang	1
+₣	fa lang	1
+₢	ke lu sai luo	1
+₡	crc	1
+₡	ke lang	1
+₠	ou zhou huo bi	1
+៛	khr	1
+៛	rui er	1
+฿	thb	1
+฿	tai zhu	1
+¥	cny	1
+¥	rmb	1
+¥	ren min bi	1
+£	gbp	1
+£	ying bang	1
+৳	bdt	1
+৳	ta ka	1
+৳	meng jia la ta ka	1
+㏿	gal	1
+㏟	am	1
+㏞	vm	1
+㏝	wb	1
+㏜	sv	1
+㏛	sr	1
+㏚	pr	1
+㏙	ppm	1
+㏘	pm	1
+㏘	xia wu	1
+㏗	ph	1
+㏖	mol	1
+㏕	mil	1
+㏔	mb	1
+㏓	lx	1
+㏒	log	1
+㏑	ln	1
+㏐	lm	1
+㏏	kt	1
+㏎	km	1
+㏍	kk	1
+㏌	in	1
+㏋	hp	1
+㏊	ha	1
+㏉	gy	1
+㏈	db	1
+㏇	co	1
+㏇	gong si	1
+㏆	ckg	1
+㏅	cd	1
+㏄	cc	1
+㏃	bq	1
+㏂	am	1
+㏂	shang wu	1
+㏁	mo	1
+㏀	ko	1
+㎿	mw	1
+㎾	kw	1
+㎽	mw	1
+㎼	uw	1
+㎻	nw	1
+㎺	pw	1
+㎹	mv	1
+㎸	kv	1
+㎷	mv	1
+㎶	uv	1
+㎵	nv	1
+㎴	pv	1
+㎳	ms	1
+㎲	us	1
+㎱	ns	1
+㎰	ps	1
+㎯	rads	1
+㎮	rads	1
+㎭	rad	1
+㎬	gpa	1
+㎫	mpa	1
+㎪	kpa	1
+㎩	pa	1
+㎨	ms	1
+㎧	ms	1
+㎦	km	1
+㎥	m	1
+㎤	cm	1
+㎣	mm	1
+㎢	km	1
+㎡	m	1
+㎠	cm	1
+㎟	mm	1
+㎞	km	1
+㎝	cm	1
+㎜	mm	1
+㎛	um	1
+㎚	nm	1
+㎙	fm	1
+㎘	kl	1
+㎗	dl	1
+㎖	ml	1
+㎕	ul	1
+㎔	thz	1
+㎓	hhz	1
+㎒	mhz	1
+㎑	khz	1
+㎐	hz	1
+㎏	kg	1
+㎎	mg	1
+㎍	ug	1
+㎌	uf	1
+㎋	nf	1
+㎊	pf	1
+㎉	kcal	1
+㎈	cal	1
+㎇	gb	1
+㎆	mb	1
+㎅	kb	1
+㎄	ka	1
+㎃	ma	1
+㎂	ua	1
+㎁	na	1
+㎀	pa	1
+㍿	zhu shi hui she	1
+㍾	ming zhi	1
+㍽	da zheng	1
+㍼	zhao he	1
+㍻	ping cheng	1
+㍺	iu	1
+㍹	dm	1
+㍸	dm	1
+㍷	dm	1
+㍶	pc	1
+㍵	ov	1
+㍴	bar	1
+㍳	au	1
+㍲	da	1
+㍱	hpa	1
+ㄯ	n	1
+ㄯ	zhu yin fu hao	1
+ㄮ	o	1
+ㄮ	zhu yin fu hao	1
+ㄭ	ih	1
+ㄭ	zhu yin fu hao	1
+ㄬ	gn	1
+ㄬ	zhu yin fu hao	1
+ㄫ	ng	1
+ㄫ	zhu yin fu hao	1
+ㄪ	v	1
+ㄪ	zhu yin fu hao	1
+ㄩ	iu	1
+ㄩ	zhu yin fu hao	1
+ㄨ	u	1
+ㄨ	zhu yin fu hao	1
+ㄧ	i	1
+ㄧ	zhu yin fu hao	1
+ㄦ	er	1
+ㄦ	zhu yin fu hao	1
+ㄥ	eng	1
+ㄥ	zhu yin fu hao	1
+ㄤ	ang	1
+ㄤ	zhu yin fu hao	1
+ㄣ	en	1
+ㄣ	zhu yin fu hao	1
+ㄢ	an	1
+ㄢ	zhu yin fu hao	1
+ㄡ	ou	1
+ㄡ	zhu yin fu hao	1
+ㄠ	au	1
+ㄠ	zhu yin fu hao	1
+ㄟ	ei	1
+ㄟ	zhu yin fu hao	1
+ㄞ	ai	1
+ㄞ	zhu yin fu hao	1
+ㄝ	eh	1
+ㄝ	zhu yin fu hao	1
+ㄜ	e	1
+ㄜ	zhu yin fu hao	1
+ㄛ	o	1
+ㄛ	zhu yin fu hao	1
+ㄚ	a	1
+ㄚ	zhu yin fu hao	1
+ㄙ	si	1
+ㄙ	zhu yin fu hao	1
+ㄘ	ci	1
+ㄘ	zhu yin fu hao	1
+ㄗ	zi	1
+ㄗ	zhu yin fu hao	1
+ㄖ	ri	1
+ㄖ	zhu yin fu hao	1
+ㄕ	shi	1
+ㄕ	zhu yin fu hao	1
+ㄔ	chi	1
+ㄔ	zhu yin fu hao	1
+ㄓ	zhi	1
+ㄓ	zhu yin fu hao	1
+ㄒ	x	1
+ㄒ	zhu yin fu hao	1
+ㄑ	q	1
+ㄑ	zhu yin fu hao	1
+ㄐ	j	1
+ㄐ	zhu yin fu hao	1
+ㄏ	h	1
+ㄏ	zhu yin fu hao	1
+ㄎ	k	1
+ㄎ	zhu yin fu hao	1
+ㄍ	g	1
+ㄍ	zhu yin fu hao	1
+ㄌ	l	1
+ㄌ	zhu yin fu hao	1
+ㄋ	n	1
+ㄋ	zhu yin fu hao	1
+ㄊ	t	1
+ㄊ	zhu yin fu hao	1
+ㄉ	d	1
+ㄉ	zhu yin fu hao	1
+ㄈ	f	1
+ㄈ	zhu yin fu hao	1
+ㄇ	m	1
+ㄇ	zhu yin fu hao	1
+ㄆ	p	1
+ㄆ	zhu yin fu hao	1
+ㄅ	b	1
+ㄅ	zhu yin fu hao	1
+🀀	dong	1
+🀀	ma jiang	1
+🀁	nan	1
+🀁	ma jiang	1
+🀂	xi	1
+🀂	ma jiang	1
+🀃	bei	1
+🀃	ma jiang	1
+🀄	zhong	1
+🀄	ma jiang	1
+🀅	fa	1
+🀅	ma jiang	1
+＊	xing	1
+卐	na cui	1
+卍	wan	1
+㉿	k	1
+㈱	zhu	1
+㈱	zhu shi hui she	1
+〼	fang kuang	1
+〠	you zheng	1
+〓	xiang rong deng hao	1
+〒	you zheng	1
+〄	gong ye biao zhun	1
+➹	you shang	1
+➹	jian tou	1
+➷	you xia	1
+➷	jian tou	1
+❧	ai xin	1
+❦	ai xin	1
+❤	ai xin	1
+❉	xing	1
+❈	xing	1
+❃	xing	1
+❂	xing	1
+❁	hua	1
+❁	xian hua	1
+❀	hua	1
+❀	xian hua	1
+✿	hua	1
+✿	xian hua	1
+✲	xing	1
+✪	xing	1
+✟	shi zi	1
+✟	shi zi jia	1
+✚	jia	1
+✚	jia hao	1
+✚	shi zi	1
+✙	jia	1
+✙	jia hao	1
+✙	shi zi	1
+✘	cha	1
+✘	cuo	1
+✖	cha	1
+✖	cuo	1
+✔	gou	1
+✔	dui	1
+✎	qian bi	1
+✍	xie zi	1
+✌	yeah	1
+✌	sheng li	1
+✉	xin xi	1
+✈	fei ji	1
+✄	jian dao	1
+✁	jian dao	1
+⚿	ping fang jian	1
+⚾	bang qiu	1
+⚽	zu qiu	1
+⚼	ba fen zhi san xiang	1
+⚻	mei hua xing	1
+⚹	liu fen xiang	1
+⚸	li li si	1
+⚸	hei yue	1
+⚸	hei yue li li si	1
+⚷	kai long	1
+⚷	xiao xing xing	1
+⚶	xiao xing xing	1
+⚶	zao shen xing	1
+⚶	wei si ta	1
+⚵	xiao xing xing	1
+⚵	zhu nuo	1
+⚴	xiao xing xing	1
+⚴	pa la si	1
+⚳	xiao xing xing	1
+⚳	gu shen xing	1
+⚲	zhong xing	1
+⚱	gu hui	1
+⚰	guan cai	1
+⚯	wei hun	1
+⚮	li hun	1
+⚭	jie hun	1
+⚬	zhong xiao kong xin yuan quan	1
+⚬	yuan quan	1
+⚫	zhong deng shi xin yuan quan	1
+⚫	yuan quan	1
+⚪	zhong deng kong xin yuan quan	1
+⚪	yuan quan	1
+⚩	dai cu xian de shui ping xiong xing	1
+⚩	xiong xing	1
+⚨	dai cu xian de shu zhi xiong xing	1
+⚨	xiong xing	1
+⚧	dai cu xian de xiong xing yu ci xiong	1
+⚧	ci xiong	1
+⚦	dai cu xian de xiong xing	1
+⚦	xiong xing	1
+⚥	ci xiong	1
+⚤	ci xiong hu suo	1
+⚣	shuang xiong xing	1
+⚢	shuang ci xing	1
+⚉	yuan quan	1
+⚉	dai liang ge kong xin dian de shi xin yuan quan	1
+⚈	you ce dai kong xin dian de shi xin yuan quan	1
+⚈	yuan quan	1
+⚇	yuan quan	1
+⚇	dai liang dian de kong xin yuan quan	1
+⚆	you ce dai dian de kong xin yuan quan	1
+⚆	yuan quan	1
+⚅	tou zi	1
+⚄	tou zi	1
+⚃	tou zi	1
+⚂	tou zi	1
+⚁	tou zi	1
+⚀	tou zi	1
+♿	lun yi	1
+♾	yong jiu xing zhi	1
+♽	zai sheng zhi	1
+♼	zai sheng zhi	1
+♻	zai xun huan	1
+♻	hui shou	1
+♺	zai xun huan	1
+♺	hui shou	1
+♹	zai xun huan	1
+♹	hui shou	1
+♸	zai xun huan	1
+♸	hui shou	1
+♷	zai xun huan	1
+♷	hui shou	1
+♶	zai xun huan	1
+♶	hui shou	1
+♵	zai xun huan	1
+♵	hui shou	1
+♴	zai xun huan	1
+♴	hui shou	1
+♳	zai xun huan	1
+♳	hui shou	1
+♲	zai xun huan	1
+♲	hui shou	1
+♱	dong xu li ya shi zi	1
+♱	shi zi	1
+♰	shi zi	1
+♰	xi xu li ya shi zi	1
+♯	yin yue sheng ban yin	1
+♯	yin fu	1
+♮	yin yue huan yuan	1
+♮	yin fu	1
+♭	yin yue jiang ban yin	1
+♭	yin fu	1
+♬	dai liang de shi liu fen yin fu	1
+♬	yin fu	1
+♫	dai liang de ba fen yin fu	1
+♫	yin fu	1
+♪	ba fen yin fu	1
+♪	yin fu	1
+♩	si fen yin fu	1
+♩	yin fu	1
+♨	wen quan	1
+♧	pu ke	1
+♧	mei hua	1
+♦	pu ke	1
+♦	fang kuai	1
+♦	fang pian	1
+♥	pu ke	1
+♥	hong tao	1
+♤	pu ke	1
+♤	hei tao	1
+♣	pu ke	1
+♣	mei hua	1
+♢	pu ke	1
+♢	fang kuai	1
+♢	fang pian	1
+♡	pu ke	1
+♡	hong tao	1
+♠	pu ke	1
+♠	hei tao	1
+♟	bing	1
+♞	ma	1
+♝	xiang	1
+♜	che	1
+♛	hou	1
+♚	wang	1
+♙	bing	1
+♘	ma	1
+♗	xiang	1
+♖	che	1
+♕	hou	1
+♔	wang	1
+♇	ming wang xing	1
+♆	hai wang xing	1
+♅	tian wang xing	1
+♄	tu xing	1
+♃	mu xing	1
+♂	nan xing	1
+♂	xiong xing	1
+♁	di qiu	1
+♀	nv xing	1
+♀	ci xing	1
+☿	shui xing	1
+☾	xia xian yue	1
+☾	yue	1
+☾	yue liang	1
+☽	shang xian yue	1
+☽	yue	1
+☽	yue liang	1
+☼	tai yang	1
+☼	ri	1
+☸	fa lun	1
+☸	da mo fa lun	1
+☯	ba gua	1
+☯	tai ji	1
+☯	yin yang	1
+☮	shi jie he ping	1
+☮	he ping	1
+☭	gong nong	1
+☭	fu tou he lian dao	1
+☬	kan da	1
+☫	bo si yu	1
+☪	xing he xin yue	1
+☩	shi zi	1
+☩	ye lu sa leng shi zi	1
+☨	shi zi	1
+☨	luo lin shi zi	1
+☧	kai le	1
+☦	dong zheng jiao shi zi	1
+☦	shi zi	1
+☥	shi zi	1
+☥	shi zi zhang	1
+☤	mo qiu li jie zhang	1
+☣	sheng wu wei hai	1
+☢	fang she xing	1
+☡	jing gao	1
+☠	ku lou	1
+☠	ku lou he jiao cha tui gu	1
+☟	xiang xia	1
+☟	kong xin xia zhi suo yin	1
+☞	xiang you	1
+☞	kong xin you zhi suo yin	1
+☝	xiang shang	1
+☝	kong xin shang zhi suo yin	1
+☜	xiang zuo	1
+☜	kong xin zuo zhi suo yin	1
+☛	xiang you	1
+☛	shi xin you zhi suo yin	1
+☚	xiang zuo	1
+☚	shi xin zuo zhi suo yin	1
+☙	heng fan xuan zhuan hua xin jia zhong hao	1
+☘	san ye cao	1
+☗	qi zi	1
+☗	hei se de jiang qi qi zi	1
+☖	qi zi	1
+☖	bai se de jiang qi qi zi	1
+☕	ka fei	1
+☕	re yin liao	1
+☔	dai yu dian de yu san	1
+☔	yu san	1
+☓	cha xing shi zi	1
+☒	cha	1
+☒	dai cha de tou piao xiang	1
+☒	tou piao xiang	1
+☒	cuo	1
+☑	gou	1
+☑	dui	1
+☑	dai dui gou de tou piao xiang	1
+☑	tou piao xiang	1
+☐	tou piao xiang	1
+☏	dian hua	1
+☏	kong xin dian hua	1
+☎	shi xin dian hua	1
+☎	dian hua	1
+☍	xiang fan	1
+☌	guan lian	1
+☋	xiang xia jie dian	1
+☊	xiang shang jie dian	1
+☉	tai yang	1
+☈	lei bao	1
+☇	shan dian	1
+☆	xing	1
+☆	kong xin xing	1
+★	shi xin xing	1
+★	xing	1
+☄	hui xing	1
+☃	xue ren	1
+☂	san	1
+☂	yu san	1
+☁	yun	1
+☁	yun duo	1
+☀	tai yang	1
+☀	fang she guang xian de shi xin tai yang	1
+◿	san jiao xing	1
+◿	you xia san jiao xing	1
+◾	shi xin zhong xiao fang xing	1
+◾	fang kuai	1
+◽	fang kuai	1
+◽	kong xin zhong xiao fang xing	1
+◼	shi xin zhong deng fang xing	1
+◼	fang kuai	1
+◻	fang kuai	1
+◻	kong xin zhong deng fang xing	1
+◺	san jiao xing	1
+◺	zuo xia san jiao	1
+◹	san jiao xing	1
+◹	you shang san jiao	1
+◸	san jiao xing	1
+◸	zuo shang san jiao	1
+◷	you shang xiang xian kong xin yuan quan	1
+◷	yuan quan	1
+◶	you xia xiang xian kong xin yuan quan	1
+◶	yuan quan	1
+◵	yuan quan	1
+◵	zuo xia xiang xian kong xin yuan quan	1
+◴	yuan quan	1
+◴	zuo shang xiang xian kong xin yuan quan	1
+◳	you shang xiang xian kong xin ju xing	1
+◳	fang kuai	1
+◲	you xia xiang xian kong xin ju xing	1
+◲	fang kuai	1
+◱	zuo xia xiang xian kong xin ju xing	1
+◱	fang kuai	1
+◰	zuo shang xiang xian kong xin ju xing	1
+◰	fang kuai	1
+◯	yuan quan	1
+◯	da yuan quan	1
+◮	san jiao xing	1
+◮	dai you you ban shi xin de shang zhi san jiao	1
+◭	san jiao xing	1
+◭	dai you zuo ban shi xin de shang zhi san jiao	1
+◬	san jiao xing	1
+◬	dai dian de kong xin shang zhi san jiao	1
+◫	fang kuai	1
+◫	you shu deng fen xian de kong xin fang xing	1
+◪	fang kuai	1
+◪	you you xia dui jiao xian ban shi xin de fang xing	1
+◩	fang kuai	1
+◩	you zuo shang dui jiao xian ban shi xin de fang xing	1
+◨	fang kuai	1
+◨	you you ban shi xin de fang xing	1
+◧	fang kuai	1
+◧	you zuo ban shi xin de fang xing	1
+◦	kong xin jia zhong hao	1
+◥	san jiao xing	1
+◥	you shang	1
+◥	shi xin you shang san jiao	1
+◥	fang wei	1
+◥	fang xiang	1
+◤	san jiao xing	1
+◤	shi xin zuo shang san jiao	1
+◤	zuo shang	1
+◤	fang wei	1
+◤	fang xiang	1
+◣	san jiao xing	1
+◣	shi xin zuo xia san jiao	1
+◣	zuo xia	1
+◣	fang wei	1
+◣	fang xiang	1
+◢	san jiao xing	1
+◢	you xia	1
+◢	shi xin you xia san jiao	1
+◢	fang wei	1
+◢	fang xiang	1
+◡	xia ban yuan quan	1
+◡	yuan quan	1
+◠	yuan quan shang ban yuan quan	1
+◟	zuo xia xiang xian yuan hu	1
+◟	xiang xian	1
+◞	you xia xiang xian yuan hu	1
+◞	xiang xian	1
+◝	you shang xiang xian yuan hu	1
+◝	xiang xian	1
+◜	zuo shang xiang xian yuan hu	1
+◜	xiang xian	1
+◛	xia ban fan bai kong xin yuan quan	1
+◛	yuan quan	1
+◚	shang ban fan bai kong xin yuan quan	1
+◚	yuan quan	1
+◙	fan bai kong xin yuan quan	1
+◙	yuan quan	1
+◘	fan bai jia zhong hao	1
+◘	yuan quan	1
+◗	you ban shi xin yuan quan	1
+◗	yuan quan	1
+◖	yuan quan	1
+◖	zuo ban shi xin yuan quan	1
+◕	yuan quan	1
+◕	dai chu zuo shang xiang xian wai shi xin de yuan quan	1
+◔	yuan quan	1
+◔	dai you shang xiang xian shi xin de yuan quan	1
+◓	shang ban shi xin de yuan quan	1
+◓	yuan quan	1
+◒	xia ban shi xin de yuan quan	1
+◒	yuan quan	1
+◑	you ban shi xin de yuan quan	1
+◑	yuan quan	1
+◐	yuan quan	1
+◐	zuo ban shi xin de yuan quan	1
+●	yuan quan	1
+●	shi xin yuan quan	1
+◎	yuan quan	1
+◎	niu yan	1
+◍	yuan quan	1
+◍	dai shu tian chong fu de yuan quan	1
+◌	yuan quan	1
+◌	dai dian yuan quan	1
+○	yuan quan	1
+○	kong xin yuan quan	1
+◊	ling xing	1
+◉	yu yan	1
+◈	kong xin ling xing bao han shi xin xiao xing ling xing	1
+◈	ling xing	1
+◇	kong xin ling xing	1
+◇	ling xing	1
+◆	shi xin ling xing	1
+◆	ling xing	1
+◅	san jiao xing	1
+◅	kong xin zuo zhi zhi zhen	1
+◄	san jiao xing	1
+◄	shi xin zuo zhi zhi zhen	1
+◃	san jiao xing	1
+◃	kong xin zuo zhi xiao xing san jiao	1
+◂	san jiao xing	1
+◂	shi xin zuo zhi xiao xing san jiao	1
+◁	san jiao xing	1
+◁	kong xin zuo zhi san jiao	1
+◀	san jiao xing	1
+◀	shi xin zuo zhi san jiao	1
+▿	san jiao xing	1
+▿	kong xin xia zhi xiao xing san jiao	1
+▾	san jiao xing	1
+▾	shi xin xia zhi xiao xing san jiao	1
+▽	san jiao xing	1
+▽	kong xin xia zhi san jiao	1
+▼	san jiao xing	1
+▼	shi xin xia zhi san jiao	1
+▻	san jiao xing	1
+▻	kong xin you zhi zhi zhen	1
+►	san jiao xing	1
+►	shi xin you zhi zhi zhen	1
+▹	san jiao xing	1
+▹	kong xin you zhi xiao xing san jiao	1
+▸	san jiao xing	1
+▸	shi xin you zhi xiao xing san jiao	1
+▷	san jiao xing	1
+▷	kong xin you zhi san jiao	1
+▶	san jiao xing	1
+▶	shi xin you zhi san jiao	1
+▵	san jiao xing	1
+▵	kong xin shang zhi xiao xing san jiao	1
+▴	san jiao xing	1
+▴	shi xin shang zhi xiao xing san jiao	1
+△	san jiao xing	1
+△	kong xin shang zhi san jiao	1
+▲	san jiao xing	1
+▲	shi xin shang zhi san jiao	1
+▱	ping xing si bian xing	1
+▱	kong xin ping xing si bian xing	1
+▰	shi xin ping xing si bian xing	1
+▰	ping xing si bian xing	1
+▯	ju xing	1
+▯	kong xin shu ju xing	1
+▮	shi xin shu ju xing	1
+▮	ju xing	1
+▭	ju xing	1
+▭	kong xin ju xing	1
+▬	shi xin ju xing	1
+▬	ju xing	1
+▫	fang kuai	1
+▫	kong xin xiao xing fang xing	1
+▪	shi xin xiao xing fang xing	1
+▪	fang kuai	1
+▩	dai dui jiao xian jiao cha tian chong fu de fang xing	1
+▩	fang kuai	1
+▨	dai you shang dao zuo xia tian chong fu de fang xing	1
+▨	fang kuai	1
+▧	dai zuo shang dao you xia tian chong fu de fang xing	1
+▧	fang kuai	1
+▦	dai zhi jiao jiao cha tian chong fu de fang xing	1
+▦	fang kuai	1
+▥	dai shu tian chong fu de fang xing	1
+▥	fang kuai	1
+▤	dai shui ping tian chong fu de fang xing	1
+▤	fang kuai	1
+▣	fang kuai	1
+▣	kong xin fang xing bao han shi xin xiao xing fang xing	1
+▢	dai yuan jiao de kong xin fang xing	1
+▢	fang kuai	1
+□	fang kuai	1
+□	kong xin fang xing	1
+■	shi xin fang xing	1
+■	fang kuai	1
+▟	you shang zuo xia he you xia xiang xian	1
+▟	xiang xian	1
+▞	you shang he zuo xia xiang xian	1
+▞	xiang xian	1
+▝	you shang xiang xian	1
+▝	xiang xian	1
+▜	zuo shang you shang he you xia xiang xian	1
+▜	xiang xian	1
+▛	zuo shang you shang he zuo xia xiang xian	1
+▛	xiang xian	1
+▚	zuo shang he you xia xiang xian	1
+▚	xiang xian	1
+▙	zuo shang zuo xia he you xia xiang xian	1
+▙	xiang xian	1
+▘	zuo shang xiang xian	1
+▘	xiang xian	1
+▗	you xia xiang xian	1
+▗	xiang xian	1
+▖	zuo xia xiang xian	1
+▖	xiang xian	1
+▕	you ba fen zhi yi fang kuai	1
+▕	fang kuai	1
+▔	shang ba fen zhi yi fang kuai	1
+▔	fang kuai	1
+▓	shen yin ying	1
+▓	yin ying	1
+▒	zhong deng yin ying	1
+▒	yin ying	1
+░	xi yin ying	1
+░	yin ying	1
+▐	you ban fang kuai	1
+▐	fang kuai	1
+▏	zuo ba fen zhi yi fang kuai	1
+▏	fang kuai	1
+▎	zuo si fen zhi yi fang kuai	1
+▎	fang kuai	1
+▍	zuo ba fen zhi san fang kuai	1
+▍	fang kuai	1
+▌	zuo ban fang kuai	1
+▌	fang kuai	1
+▋	zuo ba fen zhi wu fang kuai	1
+▋	fang kuai	1
+▊	zuo si fen zhi san fang kuai	1
+▊	fang kuai	1
+▉	zuo ba fen zhi qi fang kuai	1
+▉	fang kuai	1
+█	wan zheng fang kuai	1
+█	fang kuai	1
+▇	xia ba fen zhi qi fang kuai	1
+▇	fang kuai	1
+▆	xia si fen zhi san fang kuai	1
+▆	fang kuai	1
+▅	xia ba fen zhi wu fang kuai	1
+▅	fang kuai	1
+▄	xia ban fang kuai	1
+▄	fang kuai	1
+▃	xia ba fen zhi san fang kuai	1
+▃	fang kuai	1
+▂	xia si fen zhi yi fang kuai	1
+▂	fang kuai	1
+▁	xia ba fen zhi yi fang kuai	1
+▁	fang kuai	1
+▀	shang ban fang kuai	1
+▀	fang kuai	1
+⓿	fan bai yuan quan ling	1
+⓿	yuan quan ling	1
+⓾	shuang yuan quan shi	1
+⓾	yuan quan shi	1
+⓽	shuang yuan quan jiu	1
+⓽	yuan quan jiu	1
+⓼	shuang yuan quan ba	1
+⓼	yuan quan ba	1
+⓻	shuang yuan quan qi	1
+⓻	yuan quan qi	1
+⓺	shuang yuan quan liu	1
+⓺	yuan quan liu	1
+⓹	shuang yuan quan wu	1
+⓹	yuan quan wu	1
+⓸	shuang yuan quan si	1
+⓸	yuan quan si	1
+⓷	shuang yuan quan san	1
+⓷	yuan quan san	1
+⓶	shuang yuan quan er	1
+⓶	yuan quan er	1
+⓵	shuang yuan quan yi	1
+⓵	yuan quan yi	1
+⓴	fan bai yuan quan er shi	1
+⓴	yuan quan er shi	1
+⓳	fan bai yuan quan shi jiu	1
+⓳	yuan quan shi jiu	1
+⓲	fan bai yuan quan shi ba	1
+⓲	yuan quan shi ba	1
+⓱	fan bai yuan quan shi qi	1
+⓱	yuan quan shi qi	1
+⓰	fan bai yuan quan shi liu	1
+⓰	yuan quan shi liu	1
+⓯	fan bai yuan quan shi wu	1
+⓯	yuan quan shi wu	1
+⓮	fan bai yuan quan shi si	1
+⓮	yuan quan shi si	1
+⓭	fan bai yuan quan shi san	1
+⓭	yuan quan shi san	1
+⓬	fan bai yuan quan shi er	1
+⓬	yuan quan shi er	1
+⓫	fan bai yuan quan shi yi	1
+⓫	yuan quan shi yi	1
+⓪	yuan quan ling	1
+ⓩ	yuan quan jing	1
+ⓨ	yuan quan zhu	1
+ⓧ	yuan quan jing	1
+ⓦ	yuan quan ren	1
+ⓥ	yuan quan fa	1
+ⓤ	yuan quan chan	1
+ⓣ	yuan quan he	1
+ⓢ	yuan quan yao	1
+ⓡ	yuan quan de	1
+ⓠ	yuan quan wo	1
+ⓟ	yuan quan zhe	1
+ⓞ	yuan quan wei	1
+ⓝ	yuan quan min	1
+ⓜ	yuan quan tong	1
+ⓛ	yuan quan guo	1
+ⓚ	yuan quan zhong	1
+ⓙ	yuan quan shi	1
+ⓘ	yuan quan bu	1
+ⓗ	yuan quan shang	1
+ⓖ	yuan quan yi	1
+ⓕ	yuan quan di	1
+ⓔ	yuan quan you	1
+ⓓ	yuan quan zai	1
+ⓒ	yuan quan yi	1
+ⓑ	yuan quan le	1
+ⓐ	yuan quan gong	1
+Ⓩ	yuan quan jing	1
+Ⓨ	yuan quan zhu	1
+Ⓧ	yuan quan jing	1
+Ⓦ	yuan quan ren	1
+Ⓥ	yuan quan fa	1
+Ⓤ	yuan quan chan	1
+Ⓣ	yuan quan he	1
+Ⓢ	yuan quan yao	1
+Ⓡ	yuan quan de	1
+Ⓠ	yuan quan wo	1
+Ⓟ	yuan quan zhe	1
+Ⓞ	yuan quan wei	1
+Ⓝ	yuan quan min	1
+Ⓜ	yuan quan tong	1
+Ⓛ	yuan quan guo	1
+Ⓚ	yuan quan zhong	1
+Ⓙ	yuan quan shi	1
+Ⓘ	yuan quan bu	1
+Ⓗ	yuan quan shang	1
+Ⓖ	yuan quan yi	1
+Ⓕ	yuan quan di	1
+Ⓔ	yuan quan you	1
+Ⓓ	yuan quan zai	1
+Ⓒ	yuan quan yi	1
+Ⓑ	yuan quan le	1
+Ⓐ	yuan quan gong	1
+⒵	yuan kuo hao jing	1
+⒴	yuan kuo hao zhu	1
+⒳	yuan kuo hao jing	1
+⒲	yuan kuo hao ren	1
+⒱	yuan kuo hao fa	1
+⒰	yuan kuo hao chan	1
+⒯	yuan kuo hao he	1
+⒮	yuan kuo hao yao	1
+⒭	yuan kuo hao de	1
+⒬	yuan kuo hao wo	1
+⒫	yuan kuo hao zhe	1
+⒪	yuan kuo hao wei	1
+⒩	yuan kuo hao min	1
+⒨	yuan kuo hao tong	1
+⒧	yuan kuo hao guo	1
+⒦	yuan kuo hao zhong	1
+⒥	yuan kuo hao shi	1
+⒤	yuan kuo hao bu	1
+⒣	yuan kuo hao shang	1
+⒢	yuan kuo hao yi	1
+⒡	yuan kuo hao di	1
+⒠	yuan kuo hao you	1
+⒟	yuan kuo hao zai	1
+⒞	yuan kuo hao yi	1
+⒝	yuan kuo hao le	1
+⒜	yuan kuo hao gong	1
+⒛	er shi dian	1
+⒚	shi jiu dian	1
+⒙	shi ba dian	1
+⒘	shi qi dian	1
+⒗	shi liu dian	1
+⒖	shi wu dian	1
+⒕	shi si dian	1
+⒔	shi san dian	1
+⒓	shi er dian	1
+⒒	shi yi dian	1
+⒑	shi dian	1
+⒐	jiu dian	1
+⒏	ba dian	1
+⒎	qi dian	1
+⒍	liu dian	1
+⒌	wu dian	1
+⒋	si dian	1
+⒊	san dian	1
+⒉	er dian	1
+⒈	yi dian	1
+⒇	yuan kuo hao er shi	1
+⒆	yuan kuo hao shi jiu	1
+⒅	yuan kuo hao shi ba	1
+⒄	yuan kuo hao shi qi	1
+⒃	yuan kuo hao shi liu	1
+⒂	yuan kuo hao shi wu	1
+⒁	yuan kuo hao shi si	1
+⒀	yuan kuo hao shi san	1
+⑿	yuan kuo hao shi er	1
+⑾	yuan kuo hao shi yi	1
+⑽	yuan kuo hao shi	1
+⑼	yuan kuo hao jiu	1
+⑻	yuan kuo hao ba	1
+⑺	yuan kuo hao qi	1
+⑹	yuan kuo hao liu	1
+⑸	yuan kuo hao wu	1
+⑷	yuan kuo hao si	1
+⑶	yuan kuo hao san	1
+⑵	yuan kuo hao er	1
+⑴	yuan kuo hao yi	1
+⑳	yuan quan er shi	1
+⑲	yuan quan shi jiu	1
+⑱	yuan quan shi ba	1
+⑰	yuan quan shi qi	1
+⑯	yuan quan shi liu	1
+⑮	yuan quan shi wu	1
+⑭	yuan quan shi si	1
+⑬	yuan quan shi san	1
+⑫	yuan quan shi er	1
+⑪	yuan quan shi yi	1
+⑩	yuan quan shi	1
+⑨	yuan quan jiu	1
+⑧	yuan quan ba	1
+⑦	yuan quan qi	1
+⑥	yuan quan liu	1
+⑤	yuan quan wu	1
+④	yuan quan si	1
+③	yuan quan san	1
+②	yuan quan er	1
+①	yuan quan yi	1
+␥	shan chu xing shi er fu hao	1
+␣	da kai kuang	1
+␢	kong bai	1
+␡	shan chu	1
+␠	kong ge	1
+␟	fen ge fu	1
+␟	dan yuan fen ge fu	1
+␞	fen ge fu	1
+␞	ji lu fen ge fu	1
+␝	fen ge fu	1
+␝	zu fen ge fu	1
+␜	fen ge fu	1
+␜	wen jian fen ge fu	1
+␛	zhuan yi	1
+␚	ti huan	1
+␙	mei ti jie shu	1
+␘	qu xiao	1
+␗	chuan shu kuai jie shu	1
+␖	tong bu kong xian	1
+␕	fan que ren	1
+␔	she bei	1
+␔	she bei kong zhi si	1
+␓	she bei	1
+␓	she bei kong zhi san	1
+␒	she bei	1
+␒	she bei kong zhi er	1
+␑	she bei	1
+␑	she bei kong zhi yi	1
+␐	shu ju lian lu zhuan yi	1
+␏	yi ru	1
+␎	yi chu	1
+␍	hui che	1
+␌	huan ye	1
+␋	shu zhi biao	1
+␊	huan hang	1
+␉	shui ping biao	1
+␈	tui ge	1
+␇	xiang ling	1
+␆	que ren	1
+␅	xun wen	1
+␄	chuan shu jie shu	1
+␃	zheng wen jie shu	1
+␂	zheng wen kai shi	1
+␁	tou biao kai shi	1
+␀	kong	1
+ⅿ	yi qian	1
+ⅿ	luo ma shu zi	1
+ⅾ	wu bai	1
+ⅾ	luo ma shu zi	1
+ⅽ	yi bai	1
+ⅽ	luo ma shu zi	1
+ⅼ	wu shi	1
+ⅼ	luo ma shu zi	1
+ⅻ	shi er	1
+ⅻ	luo ma shu zi	1
+ⅺ	shi yi	1
+ⅺ	luo ma shu zi	1
+ⅹ	shi	1
+ⅹ	luo ma shu zi	1
+ⅸ	jiu	1
+ⅸ	luo ma shu zi	1
+ⅷ	ba	1
+ⅷ	luo ma shu zi	1
+ⅶ	qi	1
+ⅶ	luo ma shu zi	1
+ⅵ	liu	1
+ⅵ	luo ma shu zi	1
+ⅴ	wu	1
+ⅴ	luo ma shu zi	1
+ⅳ	si	1
+ⅳ	luo ma shu zi	1
+ⅲ	san	1
+ⅲ	luo ma shu zi	1
+ⅱ	er	1
+ⅱ	luo ma shu zi	1
+ⅰ	yi	1
+ⅰ	luo ma shu zi	1
+Ⅿ	yi qian	1
+Ⅿ	luo ma shu zi	1
+Ⅾ	wu bai	1
+Ⅾ	luo ma shu zi	1
+Ⅽ	yi bai	1
+Ⅽ	luo ma shu zi	1
+Ⅼ	wu shi	1
+Ⅼ	luo ma shu zi	1
+Ⅻ	shi er	1
+Ⅻ	luo ma shu zi	1
+Ⅺ	shi yi	1
+Ⅺ	luo ma shu zi	1
+Ⅹ	shi	1
+Ⅹ	luo ma shu zi	1
+Ⅸ	jiu	1
+Ⅸ	luo ma shu zi	1
+Ⅷ	ba	1
+Ⅷ	luo ma shu zi	1
+Ⅶ	qi	1
+Ⅶ	luo ma shu zi	1
+Ⅵ	liu	1
+Ⅵ	luo ma shu zi	1
+Ⅴ	wu	1
+Ⅴ	luo ma shu zi	1
+Ⅳ	si	1
+Ⅳ	luo ma shu zi	1
+Ⅲ	san	1
+Ⅲ	luo ma shu zi	1
+Ⅱ	er	1
+Ⅱ	luo ma shu zi	1
+Ⅰ	yi	1
+Ⅰ	luo ma shu zi	1
+⅟	fen zhi yi	1
+⅞	ba fen zhi qi	1
+⅝	ba fen zhi wu	1
+⅜	ba fen zhi san	1
+⅛	ba fen zhi yi	1
+⅚	liu fen zhi wu	1
+⅙	liu fen zhi yi	1
+⅘	wu fen zhi si	1
+⅗	wu fen zhi san	1
+⅖	wu fen zhi er	1
+⅕	wu fen zhi yi	1
+⅔	san fen zhi er	1
+⅓	san fen zhi yi	1
+⅒	shi fen zhi yi	1
+⅑	jiu fen zhi yi	1
+⅐	qi fen zhi yi	1
+℻	chuan zhen	1
+℻	chuan zhen fu hao	1
+℮	gu ji	1
+Å	ai	1
+K	kai er wen	1
+℧	ou mu	1
+Ω	ou mu	1
+Ω	dian zu	1
+℥	ang si	1
+℣	duan ju	1
+™	shang biao	1
+℡	dian hua	1
+℠	fu wu	1
+℟	xiang ying	1
+℞	chu fang	1
+℗	lu yin ban quan suo you	1
+℗	ban quan	1
+№	bian hao	1
+℔	lb	1
+ℏ	pu lang ke chang liang chu yi er zhe	1
+ℎ	pu lang ke chang liang	1
+℉	hua shi du	1
+℈	si ke lu pu er	1
+ℇ	ou la	1
+℅	zhuan jiao	1
+℄	zhong xin xian	1
+℃	she shi du	1
+ℂ	C	1
+ℂ	c	1
+℁	zhen dui zhu ti	1
+℀	zhang hu	1
+※	xing	1
+…	sheng lve hao	1
+‥	liang dian	1
+•	yi dian	1
+‡	shuang cha hao	1
+†	shi zi	1
+†	cha hao	1
+‖	shu xian	1
+ღ	ai xin	1
+÷	chu	1
+÷	chu yi	1
+÷	chu hao	1
+÷	chu fa	1
+×	cheng	1
+×	cheng yi	1
+×	cheng hao	1
+×	cheng fa	1
+¶	duan luo	1
+ω	omega	1
+ω	xi la zi mu	1
+ω	ou mi ga	1
+ψ	psi	1
+ψ	xi la zi mu	1
+ψ	pu xi	1
+χ	chi	1
+χ	xi la zi mu	1
+χ	xi	1
+φ	phi	1
+φ	fu ai	1
+φ	xi la zi mu	1
+υ	upsilon	1
+υ	yu pu xi long	1
+υ	xi la zi mu	1
+τ	tau	1
+τ	xi la zi mu	1
+τ	tao	1
+σ	sigma	1
+σ	xi la zi mu	1
+σ	xi ge ma	1
+ρ	rho	1
+ρ	xi la zi mu	1
+ρ	rou	1
+π	pi	1
+π	xi la zi mu	1
+π	pai	1
+ο	omicron	1
+ο	ao mi ke rong	1
+ο	xi la zi mu	1
+ξ	xi	1
+ξ	ke xi	1
+ξ	xi la zi mu	1
+ν	nu	1
+ν	xi la zi mu	1
+ν	niu	1
+μ	mu	1
+μ	xi la zi mu	1
+μ	mou	1
+λ	lambda	1
+λ	lan bu da	1
+λ	xi la zi mu	1
+κ	kappa	1
+κ	ka pa	1
+κ	xi la zi mu	1
+ι	iota	1
+ι	xi la zi mu	1
+ι	yue ta	1
+θ	theta	1
+θ	xi la zi mu	1
+θ	xi ta	1
+η	eta	1
+η	xi la zi mu	1
+η	ai ta	1
+ζ	zeta	1
+ζ	xi la zi mu	1
+ζ	jie ta	1
+ε	epsilon	1
+ε	yi pu xi long	1
+ε	xi la zi mu	1
+δ	delta	1
+δ	xi la zi mu	1
+δ	de er ta	1
+γ	gamma	1
+γ	ga ma	1
+γ	xi la zi mu	1
+β	beta	1
+β	xi la zi mu	1
+β	bei ta	1
+α	alpha	1
+α	xi la zi mu	1
+α	a er fa	1
+Ω	omega	1
+Ω	xi la zi mu	1
+Ω	ou mi ga	1
+Ψ	psi	1
+Ψ	xi la zi mu	1
+Ψ	pu xi	1
+Χ	chi	1
+Χ	xi la zi mu	1
+Χ	xi	1
+Φ	phi	1
+Φ	fu ai	1
+Φ	xi la zi mu	1
+Υ	upsilon	1
+Υ	yu pu xi long	1
+Υ	xi la zi mu	1
+Τ	tau	1
+Τ	xi la zi mu	1
+Τ	tao	1
+Σ	sigma	1
+Σ	xi la zi mu	1
+Σ	xi ge ma	1
+Ρ	rho	1
+Ρ	xi la zi mu	1
+Ρ	rou	1
+Π	pi	1
+Π	xi la zi mu	1
+Π	pai	1
+Ο	omicron	1
+Ο	ao mi ke rong	1
+Ο	xi la zi mu	1
+Ξ	xi	1
+Ξ	ke xi	1
+Ξ	xi la zi mu	1
+Ν	nu	1
+Ν	xi la zi mu	1
+Ν	niu	1
+Μ	mu	1
+Μ	xi la zi mu	1
+Μ	mou	1
+Λ	lambda	1
+Λ	lan bu da	1
+Λ	xi la zi mu	1
+Κ	kappa	1
+Κ	ka pa	1
+Κ	xi la zi mu	1
+Ι	iota	1
+Ι	xi la zi mu	1
+Ι	yue ta	1
+Θ	theta	1
+Θ	xi la zi mu	1
+Θ	xi ta	1
+Η	eta	1
+Η	xi la zi mu	1
+Η	ai ta	1
+Ζ	zeta	1
+Ζ	xi la zi mu	1
+Ζ	jie ta	1
+Ε	epsilon	1
+Ε	yi pu xi long	1
+Ε	xi la zi mu	1
+Δ	delta	1
+Δ	xi la zi mu	1
+Δ	de er ta	1
+Γ	gamma	1
+Γ	ga ma	1
+Γ	xi la zi mu	1
+Β	beta	1
+Β	xi la zi mu	1
+Β	bei ta	1
+Α	alpha	1
+Α	xi la zi mu	1
+Α	a er fa	1
+㊨	you	1
+㊨	xiang you	1
+㊨	fang wei	1
+㊨	fang xiang	1
+㊧	xiang zuo	1
+㊧	zuo	1
+㊧	fang wei	1
+㊧	fang xiang	1
+㊦	xia	1
+㊦	xiang xia	1
+㊦	fang wei	1
+㊦	fang xiang	1
+㊥	zhong	1
+㊥	zhong jian	1
+㊥	fang wei	1
+㊥	fang xiang	1
+㊥	zheng zhong	1
+㊤	shang	1
+㊤	xiang shang	1
+㊤	fang wei	1
+㊤	fang xiang	1
+㊣	fang wei	1
+㊣	fang xiang	1
+㊣	zheng	1
+㊣	zheng zhong	1
+⇿	zuo you	1
+⇿	zuo you kai kou de jian tou	1
+⇿	jian tou	1
+⇾	xiang you	1
+⇾	tou bu xiang you kai kou de jian tou	1
+⇾	jian tou	1
+⇽	xiang zuo	1
+⇽	tou bu xiang zuo kai kou de jian tou	1
+⇽	jian tou	1
+⇼	zuo you	1
+⇼	dai shuang shu hua de zuo you jian tou	1
+⇼	jian tou	1
+⇻	xiang you	1
+⇻	dai shuang shu hua de xiang you jian tou	1
+⇻	jian tou	1
+⇺	xiang zuo	1
+⇺	dai shuang shu hua de xiang zuo jian tou	1
+⇺	jian tou	1
+⇹	zuo you	1
+⇹	dai shu hua de zuo you jian tou	1
+⇹	jian tou	1
+⇸	xiang you	1
+⇸	dai shu hua de xiang you jian tou	1
+⇸	jian tou	1
+⇷	xiang zuo	1
+⇷	dai shu hua de xiang zuo jian tou	1
+⇷	jian tou	1
+⇶	san ge xiang you jian tou	1
+⇶	xiang you	1
+⇶	jian tou	1
+⇵	shang xia	1
+⇵	xiang shang jian tou zuo ce de xiang xia jian tou	1
+⇵	jian tou	1
+⇴	xiang you	1
+⇴	dai xiao yuan quan de you jian tou	1
+⇴	jian tou	1
+⇳	shang xia	1
+⇳	shang xia kong xin jian tou	1
+⇳	jian tou	1
+⇲	dong nan	1
+⇲	dong nan fang xiang jian tou	1
+⇲	you xia	1
+⇲	jian tou	1
+⇱	zuo shang	1
+⇱	jian tou	1
+⇱	xi bei	1
+⇱	xi bei fang xiang jian tou	1
+⇰	xiang you	1
+⇰	qiang bi shang de you ce kong xin jian tou	1
+⇰	jian tou	1
+⇯	xiang shang	1
+⇯	you zhi zuo xiang shang kong xin shuang jian tou	1
+⇯	jian tou	1
+⇮	xiang shang	1
+⇮	xiang shang kong xin shuang jian tou	1
+⇮	jian tou	1
+⇭	xiang shang	1
+⇭	you shu zhi tiao de you zhi zuo xiang shang kong xin jian tou	1
+⇭	jian tou	1
+⇬	xiang shang	1
+⇬	you shui ping tiao de you zhi zuo xiang shang kong xin jian tou	1
+⇬	jian tou	1
+⇫	xiang shang	1
+⇫	you zhi zuo xiang shang kong xin jian tou	1
+⇫	jian tou	1
+⇪	cong tiao xiang shang kong xin jian tou	1
+⇪	xiang shang	1
+⇪	jian tou	1
+⇩	xiang xia	1
+⇩	xiang xia kong xin jian tou	1
+⇩	jian tou	1
+⇨	xiang you	1
+⇨	xiang you kong xin jian tou	1
+⇨	jian tou	1
+⇧	xiang shang	1
+⇧	xiang shang kong xin jian tou	1
+⇧	jian tou	1
+⇦	xiang zuo	1
+⇦	xiang zuo kong xin jian tou	1
+⇦	jian tou	1
+⇥	xiang you	1
+⇥	xiang you jian tou dao tiao	1
+⇥	jian tou	1
+⇤	xiang zuo	1
+⇤	xiang zuo jian tou dao tiao	1
+⇤	jian tou	1
+⇣	xiang xia	1
+⇣	xiang xia xu xian jian tou	1
+⇣	jian tou	1
+⇢	xiang you	1
+⇢	xiang you xu xian jian tou	1
+⇢	jian tou	1
+⇡	xiang shang	1
+⇡	xiang shang xu xian jian tou	1
+⇡	jian tou	1
+⇠	xiang zuo	1
+⇠	xiang zuo xu xian jian tou	1
+⇠	jian tou	1
+⇟	xiang xia	1
+⇟	you shuang hua de xiang xia jian tou	1
+⇟	jian tou	1
+⇞	xiang shang	1
+⇞	you shuang hua de xiang shang jian tou	1
+⇞	jian tou	1
+⇝	xiang you	1
+⇝	xiang you bo xing qu xian jian tou	1
+⇝	jian tou	1
+⇜	xiang zuo	1
+⇜	xiang zuo bo xing qu xian jian tou	1
+⇜	jian tou	1
+⇛	xiang you	1
+⇛	xiang you san jian tou	1
+⇛	jian tou	1
+⇚	xiang zuo	1
+⇚	xiang zuo san jian tou	1
+⇚	jian tou	1
+⇙	zuo xia	1
+⇙	jian tou	1
+⇙	xi nan	1
+⇙	xi nan shuang jian tou	1
+⇘	dong nan	1
+⇘	dong nan shuang jian tou	1
+⇘	you xia	1
+⇘	jian tou	1
+⇗	dong bei	1
+⇗	dong bei shuang jian tou	1
+⇗	you shang	1
+⇗	jian tou	1
+⇖	zuo shang	1
+⇖	jian tou	1
+⇖	xi bei	1
+⇖	xi bei shuang jian tou	1
+⇕	shang xia	1
+⇕	shang xia shuang jian tou	1
+⇕	jian tou	1
+⇔	zuo you	1
+⇔	zuo you shuang jian tou	1
+⇔	jian tou	1
+⇓	xiang xia	1
+⇓	xiang xia shuang jian tou	1
+⇓	jian tou	1
+⇒	xiang you	1
+⇒	xiang you shuang jian tou	1
+⇒	jian tou	1
+⇑	xiang shang	1
+⇑	xiang shang shuang jian tou	1
+⇑	jian tou	1
+⇐	xiang zuo	1
+⇐	xiang zuo shuang jian tou	1
+⇐	jian tou	1
+⇏	xiang you	1
+⇏	dai cu xian de xiang you shuang jian tou	1
+⇏	jian tou	1
+⇎	zuo you	1
+⇎	dai cu xian de zuo you shuang jian tou	1
+⇎	jian tou	1
+⇍	xiang zuo	1
+⇍	dai cu xian de xiang zuo shuang jian tou	1
+⇍	jian tou	1
+⇌	xiang you	1
+⇌	xiang zuo yu cha shang de xiang you yu cha	1
+⇌	jian tou	1
+⇋	xiang you	1
+⇋	xiang you yu cha shang de xiang zuo yu cha	1
+⇋	jian tou	1
+⇊	shuang xiang xia jian tou	1
+⇊	xiang xia	1
+⇊	jian tou	1
+⇉	shuang xiang you jian tou	1
+⇉	xiang you	1
+⇉	jian tou	1
+⇈	shuang xiang shang jian tou	1
+⇈	xiang shang	1
+⇈	jian tou	1
+⇇	shuang xiang zuo jian tou	1
+⇇	xiang zuo	1
+⇇	jian tou	1
+⇆	xiang you	1
+⇆	xiang you jian tou shang de xiang zuo jian tou	1
+⇆	jian tou	1
+⇅	xiang xia jian tou zuo bian de xiang shang jian tou	1
+⇅	xiang zuo	1
+⇅	jian tou	1
+⇄	xiang zuo	1
+⇄	xiang zuo jian tou shang de xiang you jian tou	1
+⇄	jian tou	1
+⇃	dao gou chao zuo de xiang xia yu cha	1
+⇃	xiang xia	1
+⇃	jian tou	1
+⇃	yu cha	1
+⇂	dao gou chao you de xiang xia yu cha	1
+⇂	xiang xia	1
+⇂	jian tou	1
+⇂	yu cha	1
+⇁	dao gou chao xia de xiang you yu cha	1
+⇁	xiang you	1
+⇁	jian tou	1
+⇁	yu cha	1
+⇀	dao gou chao shang de xiang you yu cha	1
+⇀	xiang you	1
+⇀	jian tou	1
+⇀	yu cha	1
+↿	dao gou chao zuo de xiang shang yu cha	1
+↿	xiang shang	1
+↿	jian tou	1
+↿	yu cha	1
+↾	dao gou chao you de xiang shang yu cha	1
+↾	xiang shang	1
+↾	jian tou	1
+↾	yu cha	1
+↽	dao gou chao xia de xiang zuo yu cha	1
+↽	xiang zuo	1
+↽	jian tou	1
+↽	yu cha	1
+↼	dao gou chao shang de xiang zuo yu cha	1
+↼	xiang zuo	1
+↼	jian tou	1
+↼	yu cha	1
+↻	jian tou	1
+↻	shun shi zhen	1
+↻	shun shi zhen kai yuan quan jian tou	1
+↺	jian tou	1
+↺	ni shi zhen	1
+↺	ni shi zhen kai yuan quan jian tou	1
+↹	shang xiang zuo jian tou dao tiao xia xiang you jian tou dao tiao	1
+↹	zuo you	1
+↹	jian tou	1
+↸	zuo shang	1
+↸	jian tou	1
+↸	xi bei	1
+↸	xi bei jian tou dao chang tiao	1
+↷	jian tou	1
+↷	shun shi zhen	1
+↷	shun shi zhen shang ban yuan jian tou	1
+↶	jian tou	1
+↶	ni shi zhen	1
+↶	ni shi zhen shang ban yuan jian tou	1
+↵	xiang zuo	1
+↵	jian tou	1
+↵	jiao chao zuo de xiang xia jian tou	1
+↴	xiang xia	1
+↴	jian tou	1
+↴	jiao chao xia de xiang you jian tou	1
+↳	xiang you	1
+↳	jian chao you de xiang xia jian tou	1
+↳	jian tou	1
+↲	xiang zuo	1
+↲	jian chao zuo de xiang xia jian tou	1
+↲	jian tou	1
+↱	xiang you	1
+↱	xiang you zhuan	1
+↱	jian chao you de xiang shang jian tou	1
+↱	jian tou	1
+↰	xiang zuo	1
+↰	xiang zuo zhuan	1
+↰	jian chao zuo de xiang shang jian tou	1
+↰	jian tou	1
+↯	xiang xia	1
+↯	xiang xia zhi zi xing jian tou	1
+↯	jian tou	1
+↮	zuo you	1
+↮	dai cu xian de zuo you jian tou	1
+↮	jian tou	1
+↭	zuo you	1
+↭	zuo you bo xing jian tou	1
+↭	jian tou	1
+↬	xiang you	1
+↬	you huan de xiang you jian tou	1
+↬	jian tou	1
+↫	xiang zuo	1
+↫	you huan de xiang zuo jian tou	1
+↫	jian tou	1
+↪	xiang you	1
+↪	you gou de xiang you jian tou	1
+↪	jian tou	1
+↩	xiang zuo	1
+↩	you gou de xiang zuo jian tou	1
+↩	jian tou	1
+↨	shang xia	1
+↨	you di de shang xia jian tou	1
+↨	jian tou	1
+↧	cong tiao xiang xia jian tou	1
+↧	xiang xia	1
+↧	jian tou	1
+↦	cong tiao xiang you jian tou	1
+↦	xiang you	1
+↦	jian tou	1
+↥	cong tiao xiang shang jian tou	1
+↥	xiang shang	1
+↥	jian tou	1
+↤	cong tiao xiang zuo jian tou	1
+↤	xiang zuo	1
+↤	jian tou	1
+↣	xiang you	1
+↣	you wei de xiang you jian tou	1
+↣	jian tou	1
+↢	xiang zuo	1
+↢	you wei de xiang zuo jian tou	1
+↢	jian tou	1
+↡	xiang xia	1
+↡	xiang xia er tou jian tou	1
+↡	jian tou	1
+↠	xiang you	1
+↠	xiang you er tou jian tou	1
+↠	jian tou	1
+↟	xiang shang	1
+↟	xiang shang er tou jian tou	1
+↟	jian tou	1
+↞	xiang zuo	1
+↞	xiang zuo er tou jian tou	1
+↞	jian tou	1
+↝	xiang you	1
+↝	xiang you bo xing jian tou	1
+↝	jian tou	1
+↜	xiang zuo	1
+↜	xiang zuo bo xing jian tou	1
+↜	jian tou	1
+↛	xiang you	1
+↛	dai cu xian de xiang you jian tou	1
+↛	jian tou	1
+↚	xiang zuo	1
+↚	dai cu xian de xiang zuo jian tou	1
+↚	jian tou	1
+↙	zuo xia	1
+↙	jian tou	1
+↙	xi nan	1
+↘	dong nan	1
+↘	you xia	1
+↘	jian tou	1
+↗	dong bei	1
+↗	you shang	1
+↗	jian tou	1
+↖	zuo shang	1
+↖	jian tou	1
+↖	xi bei	1
+↕	shang xia	1
+↕	shang xia jian tou	1
+↕	jian tou	1
+↔	zuo you	1
+↔	jian tou	1
+↓	xiang xia	1
+↓	jian tou	1
+→	xiang you	1
+→	jian tou	1
+↑	xiang shang	1
+↑	jian tou	1
+←	xiang zuo	1
+←	jian tou	1
+₟	xia biao	1
+₞	xia biao	1
+₝	xia biao	1
+ₜ	xia biao	1
+ₜ	xia biao zhi	1
+ₛ	xia biao	1
+ₛ	xia biao lin	1
+ₚ	xia biao	1
+ₚ	xia biao zhi	1
+ₙ	xia biao	1
+ₙ	xia biao yi	1
+ₘ	xia biao	1
+ₘ	xia biao ce	1
+ₗ	xia biao	1
+ₗ	xia biao tian	1
+ₖ	xia biao	1
+ₖ	xia biao lv	1
+ₕ	xia biao	1
+ₕ	xia biao bu	1
+ₔ	xia biao	1
+ₔ	xia biao peng	1
+ₓ	xia biao	1
+ₓ	xia biao bi	1
+ₒ	xia biao	1
+ₒ	xia biao yan	1
+ₑ	xia biao	1
+ₑ	xia biao peng	1
+ₐ	xia biao	1
+ₐ	xia biao shi	1
+₏	xia biao	1
+₎	xia biao	1
+₎	xia biao you yuan kuo hao	1
+₍	xia biao	1
+₍	xia biao zuo yuan kuo hao	1
+₌	xia biao	1
+₌	xia biao deng hao	1
+₋	xia biao	1
+₋	xia biao fu hao	1
+₊	xia biao	1
+₊	xia biao zheng hao	1
+₉	xia biao	1
+₉	xia biao jiu	1
+₈	xia biao	1
+₈	xia biao ba	1
+₇	xia biao	1
+₇	xia biao qi	1
+₆	xia biao	1
+₆	xia biao liu	1
+₅	xia biao	1
+₅	xia biao wu	1
+₄	xia biao	1
+₄	xia biao si	1
+₃	xia biao	1
+₃	xia biao san	1
+₂	xia biao	1
+₂	xia biao er	1
+₁	xia biao	1
+₁	xia biao yi	1
+₀	xia biao	1
+₀	xia biao yan	1
+ⁿ	shang biao	1
+ⁿ	shang biao yi	1
+⁾	shang biao	1
+⁾	shang biao you yuan kuo hao	1
+⁽	shang biao	1
+⁽	shang biao zuo yuan kuo hao	1
+⁼	shang biao	1
+⁼	shang biao deng hao	1
+⁻	shang biao	1
+⁻	shang biao fu hao	1
+⁺	shang biao	1
+⁺	shang biao zheng hao	1
+⁹	shang biao	1
+⁹	shang biao jiu	1
+⁸	shang biao	1
+⁸	shang biao ba	1
+⁷	shang biao	1
+⁷	shang biao qi	1
+⁶	shang biao	1
+⁶	shang biao liu	1
+⁵	shang biao	1
+⁵	shang biao wu	1
+⁴	shang biao	1
+⁴	shang biao si	1
+⁳	shang biao	1
+⁲	shang biao	1
+ⁱ	shang biao	1
+ⁱ	shang biao shui	1
+⁰	shang biao	1
+⁰	shang biao yan	1
+⋱	you xia dui jiao xian sheng lve hao	1
+⋱	sheng lve hao	1
+⋰	you shang dui jiao xian sheng lve hao	1
+⋰	sheng lve hao	1
+⋯	zhong xian shui ping sheng lve hao	1
+⋯	sheng lve hao	1
+⋮	chui zhi sheng lve hao	1
+⋮	sheng lve hao	1
+⋮	shu sheng lve hao	1
+⋭	bu zheng gui zi qun huo deng yu	1
+⋬	fei zheng gui zi qun huo deng yu	1
+⋫	bu shu yu zheng gui zi qun	1
+⋪	bu zheng gui zi qun	1
+⋩	hou yu dan bu deng jia yu	1
+⋨	xian yu dan bu deng jia yu	1
+⋧	da yu dan bu deng jia yu	1
+⋦	xiao yu dan bu deng jia yu	1
+⋥	fang xing yuan huo bu deng yu	1
+⋤	fang xing xiang huo bu deng yu	1
+⋣	bu fang xing yuan huo deng yu	1
+⋢	bu fang xing xiang huo deng yu	1
+⋢	fei fang xing xiang huo deng yu	1
+⋡	bu hou yu huo deng yu	1
+⋠	bu xian yu huo deng yu	1
+⋟	deng yu huo hou yu	1
+⋞	deng yu huo xian yu	1
+⋝	deng yu da yu	1
+⋝	deng yu huo da yu	1
+⋜	deng yu xiao yu	1
+⋜	deng yu huo xiao yu	1
+⋛	da yu deng yu huo xiao yu	1
+⋚	xiao yu deng yu huo da yu	1
+⋙	ji da yu	1
+⋙	fei chang da yu	1
+⋘	ji xiao yu	1
+⋘	fei chang xiao yu	1
+⋗	dai dian da yu	1
+⋗	dai dian de da yu	1
+⋖	dai dian xiao yu	1
+⋖	dai dian de xiao yu	1
+⋕	deng yu he ping xing yu	1
+⋕	deng yu bing ping xing yu	1
+⋔	gan cao cha	1
+⋓	shuang bing ji	1
+⋒	shuang jiao ji	1
+⋑	shuang chao ji	1
+⋐	shuang zi ji	1
+⋏	juan qu luo ji yu	1
+⋏	bo xing luo ji he	1
+⋎	juan qu luo ji huo	1
+⋎	bo xing luo ji huo	1
+⋍	fan zhuan e hua fu deng yu	1
+⋍	heng fan e hua fu deng hao	1
+⋌	you ban zhi ji	1
+⋋	zuo ban zhi ji	1
+⋊	you zheng tai yin zi ban zhi ji	1
+⋊	you zheng gui yin zi ban zhi ji	1
+⋉	zuo zheng tai yin zi ban zhi ji	1
+⋉	zuo zheng gui yin zi ban zhi ji	1
+⋈	hu die jie	1
+⋈	ling jie	1
+⋇	cheng chu	1
+⋆	xing xing	1
+⋅	dian	1
+⋄	ling xing	1
+⋃	bing ji	1
+⋂	jiao ji	1
+⋁	luo ji huo	1
+⋀	luo ji yu	1
+⋀	luo ji he	1
+⊿	you san jiao	1
+⊿	zhi jiao san jiao xing	1
+⊾	dai yuan hu de zhi jiao	1
+⊾	dai you hu de you jiao	1
+⊽	no	1
+⊽	huo fei	1
+⊼	nand	1
+⊼	yu fei	1
+⊻	xor	1
+⊻	yi huo	1
+⊺	cha ru	1
+⊺	cha ceng	1
+⊹	e mi te gong e ju zhen	1
+⊸	duo chong ying she	1
+⊷	xiang	1
+⊶	yuan	1
+⊵	bao han wei zheng gui zi qun huo deng yu	1
+⊵	shu yu zheng gui zi qun huo deng yu	1
+⊴	zheng gui zi qun huo deng yu	1
+⊳	bao han wei zheng gui zi qun	1
+⊳	shu yu zheng gui zi qun	1
+⊲	zheng gui zi qun	1
+⊱	ji cheng guan xi	1
+⊰	xian yu guan xi	1
+⊯	fan xiang shuang shu tiao shuang you zhuan men	1
+⊯	fei shuang shu tiao shuang you zhuan men	1
+⊮	bu qiang zhi	1
+⊭	bu zheng que	1
+⊭	bu zhen	1
+⊬	bu zheng ming	1
+⊬	wu fa zheng ming	1
+⊫	shuang shu tiao shuang you zhuan men	1
+⊪	san shu tiao you zhuan men	1
+⊩	qiang zhi	1
+⊨	true	1
+⊨	zhen	1
+⊧	xing hao	1
+⊦	duan yan	1
+⊥	shang ding	1
+⊤	xia ding	1
+⊣	zuo ding	1
+⊢	you ding	1
+⊡	dai fang kuang dian	1
+⊡	ping fang dian	1
+⊠	dai fang kuang cheng	1
+⊠	ping fang cheng yi	1
+⊟	dai fang kuang jian	1
+⊟	dai fang kuang fu	1
+⊟	fang kuang jian	1
+⊟	fang kuang fu	1
+⊞	dai fang kuang jia	1
+⊞	dai fang kuang zheng	1
+⊞	fang kuang jia	1
+⊞	fang kuang zheng	1
+⊝	yuan quan duan hua	1
+⊝	dai yuan quan duan hua	1
+⊜	yuan quan deng yu	1
+⊜	dai yuan quan deng yu	1
+⊛	yuan quan xing	1
+⊛	dai yuan quan xing	1
+⊚	liang ge yuan quan	1
+⊚	yuan quan yuan quan	1
+⊚	dai yuan quan yuan quan	1
+⊙	yuan quan dian	1
+⊙	dai yuan quan dian	1
+⊘	yuan quan chu	1
+⊘	dai yuan quan chu	1
+⊗	yuan quan cheng	1
+⊗	dai yuan quan cheng	1
+⊖	yuan quan jian	1
+⊖	yuan quan fu	1
+⊖	dai yuan quan jian	1
+⊖	dai yuan quan fu	1
+⊕	yuan quan jia	1
+⊕	yuan quan zheng	1
+⊕	dai yuan quan jia	1
+⊕	dai yuan quan zheng	1
+⊔	fang xing bei	1
+⊓	fang xing mao	1
+⊒	fang xing yuan huo deng yu	1
+⊑	fang xing xiang huo deng yu	1
+⊐	fang xing yuan	1
+⊏	fang xing xiang	1
+⊎	duo zhong ji bing ji	1
+⊍	duo zhong ji cheng ji	1
+⊌	duo zhong ji	1
+⊋	chao ji qie bu deng yu	1
+⊊	zi ji qie bu deng yu	1
+⊉	ji bu shi chao ji ye bu deng yu	1
+⊉	fei chao ji ye bu deng yu	1
+⊈	ji bu shu yu ye bu deng yu	1
+⊈	fei zi ji ye bu deng yu	1
+⊇	chao ji huo deng yu	1
+⊆	zi ji huo deng yu	1
+⊅	fei chao ji	1
+⊄	fei zi ji	1
+⊃	bao han	1
+⊃	chao ji	1
+⊂	bao han	1
+⊂	zi ji	1
+⊁	bu hou yu	1
+⊀	bu xian yu	1
+≿	hou yu huo deng jia yu	1
+≾	xian yu huo deng jia yu	1
+≽	hou yu huo deng yu	1
+≼	xian yu huo deng yu	1
+≻	hou yu	1
+≺	xian yu	1
+≹	bu da yu ye bu xiao yu	1
+≸	bu xiao yu ye bu da yu	1
+≷	da yu huo xiao yu	1
+≶	xiao yu huo da yu	1
+≵	bu da yu huo deng jia yu	1
+≴	bu xiao yu huo deng jia yu	1
+≳	da yu huo deng jia yu	1
+≲	xiao yu huo deng jia yu	1
+≱	bu da yu huo deng yu	1
+≰	bu xiao yu huo deng yu	1
+≯	bu da yu	1
+≮	bu xiao yu	1
+≭	bu deng yu	1
+≬	jie yu	1
+≫	yuan da yu	1
+≪	yuan xiao yu	1
+≩	da yu dan bu deng yu	1
+≨	xiao yu dan bu deng yu	1
+≧	da yu huo deng yu	1
+≧	da yu deng yu	1
+≦	xiao yu huo deng yu	1
+≦	xiao yu deng yu	1
+≥	da yu huo deng yu	1
+≥	da yu deng yu	1
+≤	xiao yu huo deng yu	1
+≤	xiao yu deng yu	1
+≣	yan ge deng tong yu	1
+≣	wan quan deng yu	1
+≢	bu heng deng yu	1
+≡	heng deng yu	1
+≠	bu deng yu	1
+≟	yi wen deng yu	1
+≟	wen hao deng yu	1
+≞	you	1
+≝	an ding yi deng yu	1
+≝	gen ju ding yi deng yu	1
+≜	de er ta deng yu	1
+≛	xing deng yu	1
+≚	deng jiao yu	1
+≚	deng jiao dao	1
+≙	gu ji	1
+≙	gu ji shu	1
+≘	dui ying yu	1
+≗	huan deng yu	1
+≖	huan ru deng yu	1
+≕	deng yu mao hao	1
+≔	mao hao deng yu	1
+≓	jin si yu	1
+≓	jin si deng yu	1
+≒	jin si yu	1
+≒	jin si deng yu	1
+≑	ji he deng yu	1
+≐	jie jin ji xian	1
+≏	xiang cha	1
+≎	ji he shang deng jia yu	1
+≎	ji he deng yu	1
+≍	xiang dang yu	1
+≍	deng yu	1
+≍	deng jia yu	1
+≌	quan deng yu	1
+≌	tong gou	1
+≋	san chong e hua fu	1
+≋	san e hua fu	1
+≊	yue deng yu huo deng yu	1
+≉	bu yue deng yu	1
+≈	ji hu deng yu	1
+≈	yue deng yu	1
+≇	bu jin si ye bu zhen shi deng yu	1
+≇	ji bu jin si ye bu shi ji deng yu	1
+≆	yue deng yu dan bu shi ji deng yu	1
+≆	jin si dan bu zhen shi deng yu	1
+≅	tong lun	1
+≅	jin si deng yu	1
+≄	bu jian jin deng yu	1
+≃	tong tai	1
+≃	jian jin deng yu	1
+≂	fu e hua fu	1
+≁	bu e hua fu	1
+≀	huan ji	1
+∿	zheng xian	1
+∿	zheng xian bo	1
+∾	xiang si	1
+∽	tong yang fen bu	1
+∽	fu cong	1
+∽	heng fan e hua fu	1
+∽	xiang si	1
+∼	fu cong	1
+∼	e hua fu	1
+∻	tong wei	1
+∺	deng bi	1
+∹	chao chu	1
+∹	guo liang	1
+∸	dian jian	1
+∸	dian fu	1
+∸	dian fu hao	1
+∷	bi li	1
+∶	bi	1
+∶	bi lv	1
+∵	yin wei	1
+∴	yin ci	1
+∴	suo yi	1
+∳	ji fen	1
+∳	lun kuo ji fen	1
+∳	ni shi zhen lun kuo ji fen	1
+∲	ji fen	1
+∲	lun kuo ji fen	1
+∲	shun shi zhen lun kuo ji fen	1
+∱	ji fen	1
+∱	shun shi zhen ji fen	1
+∰	rong ji ji fen	1
+∰	ji fen	1
+∰	kong jian ji fen	1
+∯	ji fen	1
+∯	biao mian ji fen	1
+∮	ji fen	1
+∮	lun kuo ji fen	1
+∭	san chong ji fen	1
+∭	ding ji fen	1
+∭	ji fen	1
+∬	er chong ji fen	1
+∬	ding ji fen	1
+∬	ji fen	1
+∫	ding ji fen	1
+∫	ji fen	1
+∪	bing ji	1
+∩	jiao ji	1
+∨	huo	1
+∨	luo ji huo	1
+∧	yu	1
+∧	luo ji yu	1
+∦	bu ping xing	1
+∦	bu ping xing yu	1
+∦	xiang jiao	1
+∥	ping xing	1
+∥	ping xing yu	1
+∤	bu zheng chu	1
+∣	zheng chu	1
+∢	qiu mian jiao	1
+∡	ce liang	1
+∡	ce liang jiao du	1
+∠	jiao du	1
+∟	zhi jiao	1
+∞	wu qiong	1
+∞	wu qiong da	1
+∝	cheng bi li	1
+∝	zheng bi	1
+∝	zheng bi yu	1
+∜	si ci fang gen	1
+∛	kai li fang	1
+∛	li fang gen	1
+√	ping fang gen	1
+√	kai fang	1
+∙	dian cheng	1
+∙	xiang mu fu hao	1
+∘	huan	1
+∗	xing	1
+∖	she zhi fu	1
+∕	chu	1
+∕	chu hao	1
+∔	dian jia	1
+∓	jian jia	1
+−	jian	1
+−	jian hao	1
+∑	yuan he	1
+∑	qiu he	1
+∐	yuan ji	1
+∐	yuan ji fu chan wu	1
+∏	yuan ji	1
+∏	qiu ji	1
+∎	zheng ming jie shu	1
+∍	bao han	1
+∍	shu yu	1
+∌	bu bao han	1
+∌	bu shu yu	1
+∋	bao han	1
+∋	shu yu	1
+∊	bao han	1
+∊	shu yu	1
+∉	bu bao han	1
+∉	bu shu yu	1
+∈	yuan su	1
+∈	bao han	1
+∈	shu yu	1
+∇	nabla	1
+∇	dao san jiao	1
+∇	pi xing	1
+∇	pi xing suan fu	1
+∇	la pu la si suan zi	1
+∇	ti du	1
+∆	zeng liang	1
+∅	kong ji	1
+∄	bu cun zai	1
+∃	cun zai	1
+∂	pian dao shu	1
+∂	pian wei fen	1
+∁	bu ji	1
+∀	ren yi	1
+∀	quan ti	1
+☷	ba gua	1
+☷	kun	1
+☶	ba gua	1
+☶	gen	1
+☵	ba gua	1
+☵	kan	1
+☴	ba gua	1
+☴	xun	1
+☳	ba gua	1
+☳	zhen	1
+☲	ba gua	1
+☲	li	1
+☱	dui	1
+☱	ba gua	1
+☰	qian	1
+☰	ba gua	1
+ſ	ss	1
+ſ	la ding zi mu	1
+ž	zz	1
+ž	la ding zi mu	1
+Ž	zz	1
+Ž	la ding zi mu	1
+ż	zz	1
+ż	la ding zi mu	1
+Ż	zz	1
+Ż	la ding zi mu	1
+ź	zz	1
+ź	la ding zi mu	1
+Ź	zz	1
+Ź	la ding zi mu	1
+Ÿ	yy	1
+Ÿ	la ding zi mu	1
+ŷ	yy	1
+ŷ	la ding zi mu	1
+Ŷ	yy	1
+Ŷ	la ding zi mu	1
+ŵ	ww	1
+ŵ	la ding zi mu	1
+Ŵ	ww	1
+Ŵ	la ding zi mu	1
+ų	uu	1
+ų	la ding zi mu	1
+Ų	uu	1
+Ų	la ding zi mu	1
+ű	uu	1
+ű	la ding zi mu	1
+Ű	uu	1
+Ű	la ding zi mu	1
+ů	uu	1
+ů	la ding zi mu	1
+Ů	uu	1
+Ů	la ding zi mu	1
+ŭ	uu	1
+ŭ	la ding zi mu	1
+Ŭ	uu	1
+Ŭ	la ding zi mu	1
+Ū	uu	1
+Ū	la ding zi mu	1
+ũ	uu	1
+ũ	la ding zi mu	1
+Ũ	uu	1
+Ũ	la ding zi mu	1
+ŧ	tt	1
+ŧ	la ding zi mu	1
+Ŧ	tt	1
+Ŧ	la ding zi mu	1
+ť	tt	1
+ť	la ding zi mu	1
+Ť	tt	1
+Ť	la ding zi mu	1
+ţ	tt	1
+ţ	la ding zi mu	1
+Ţ	tt	1
+Ţ	la ding zi mu	1
+š	ss	1
+š	la ding zi mu	1
+Š	ss	1
+Š	la ding zi mu	1
+ş	ss	1
+ş	la ding zi mu	1
+Ş	ss	1
+Ş	la ding zi mu	1
+ŝ	ss	1
+ŝ	la ding zi mu	1
+Ŝ	ss	1
+Ŝ	la ding zi mu	1
+ś	ss	1
+ś	la ding zi mu	1
+Ś	ss	1
+Ś	la ding zi mu	1
+ř	rr	1
+ř	la ding zi mu	1
+Ř	rr	1
+Ř	la ding zi mu	1
+ŗ	rr	1
+ŗ	la ding zi mu	1
+Ŗ	rr	1
+Ŗ	la ding zi mu	1
+ŕ	rr	1
+ŕ	la ding zi mu	1
+Ŕ	rr	1
+Ŕ	la ding zi mu	1
+œ	oe	1
+œ	la ding zi mu	1
+Œ	oe	1
+Œ	la ding zi mu	1
+ő	oo	1
+ő	la ding zi mu	1
+Ő	oo	1
+Ő	la ding zi mu	1
+ŏ	oo	1
+ŏ	la ding zi mu	1
+Ŏ	oo	1
+Ŏ	la ding zi mu	1
+Ō	oo	1
+Ō	la ding zi mu	1
+ŋ	nn	1
+ŋ	la ding zi mu	1
+Ŋ	nn	1
+Ŋ	la ding zi mu	1
+ŉ	nn	1
+ŉ	la ding zi mu	1
+Ň	nn	1
+Ň	la ding zi mu	1
+ņ	nn	1
+ņ	la ding zi mu	1
+Ņ	nn	1
+Ņ	la ding zi mu	1
+Ń	nn	1
+Ń	la ding zi mu	1
+ł	ll	1
+ł	la ding zi mu	1
+Ł	ll	1
+Ł	la ding zi mu	1
+ŀ	ll	1
+ŀ	la ding zi mu	1
+Ŀ	ll	1
+Ŀ	la ding zi mu	1
+ľ	ll	1
+ľ	la ding zi mu	1
+Ľ	ll	1
+Ľ	la ding zi mu	1
+ļ	ll	1
+ļ	la ding zi mu	1
+Ļ	ll	1
+Ļ	la ding zi mu	1
+ĺ	ll	1
+ĺ	la ding zi mu	1
+Ĺ	ll	1
+Ĺ	la ding zi mu	1
+ĸ	kk	1
+ĸ	la ding zi mu	1
+ķ	kk	1
+ķ	la ding zi mu	1
+Ķ	kk	1
+Ķ	la ding zi mu	1
+ĵ	jj	1
+ĵ	la ding zi mu	1
+Ĵ	jj	1
+Ĵ	la ding zi mu	1
+ĳ	ij	1
+ĳ	la ding zi mu	1
+Ĳ	ij	1
+Ĳ	la ding zi mu	1
+ı	ii	1
+ı	la ding zi mu	1
+İ	ii	1
+İ	la ding zi mu	1
+į	ii	1
+į	la ding zi mu	1
+Į	ii	1
+Į	la ding zi mu	1
+ĭ	ii	1
+ĭ	la ding zi mu	1
+Ĭ	ii	1
+Ĭ	la ding zi mu	1
+Ī	ii	1
+Ī	la ding zi mu	1
+ĩ	ii	1
+ĩ	la ding zi mu	1
+Ĩ	ii	1
+Ĩ	la ding zi mu	1
+ħ	hh	1
+ħ	la ding zi mu	1
+Ħ	hh	1
+Ħ	la ding zi mu	1
+ĥ	hh	1
+ĥ	la ding zi mu	1
+Ĥ	hh	1
+Ĥ	la ding zi mu	1
+ģ	gg	1
+ģ	la ding zi mu	1
+Ģ	gg	1
+Ģ	la ding zi mu	1
+ġ	gg	1
+ġ	la ding zi mu	1
+Ġ	gg	1
+Ġ	la ding zi mu	1
+ğ	gg	1
+ğ	la ding zi mu	1
+Ğ	gg	1
+Ğ	la ding zi mu	1
+ĝ	gg	1
+ĝ	la ding zi mu	1
+Ĝ	gg	1
+Ĝ	la ding zi mu	1
+Ě	ee	1
+Ě	la ding zi mu	1
+ę	ee	1
+ę	la ding zi mu	1
+Ę	ee	1
+Ę	la ding zi mu	1
+ė	ee	1
+ė	la ding zi mu	1
+Ė	ee	1
+Ė	la ding zi mu	1
+ĕ	ee	1
+ĕ	la ding zi mu	1
+Ĕ	ee	1
+Ĕ	la ding zi mu	1
+Ē	ee	1
+Ē	la ding zi mu	1
+đ	dd	1
+đ	la ding zi mu	1
+Đ	dd	1
+Đ	la ding zi mu	1
+ď	dd	1
+ď	la ding zi mu	1
+Ď	dd	1
+Ď	la ding zi mu	1
+č	cc	1
+č	la ding zi mu	1
+Č	cc	1
+Č	la ding zi mu	1
+ċ	cc	1
+ċ	la ding zi mu	1
+Ċ	cc	1
+Ċ	la ding zi mu	1
+ĉ	cc	1
+ĉ	la ding zi mu	1
+Ĉ	cc	1
+Ĉ	la ding zi mu	1
+ć	cc	1
+ć	la ding zi mu	1
+Ć	cc	1
+Ć	la ding zi mu	1
+ą	aa	1
+ą	la ding zi mu	1
+Ą	aa	1
+Ą	la ding zi mu	1
+ă	aa	1
+ă	la ding zi mu	1
+Ă	aa	1
+Ă	la ding zi mu	1
+Ā	aa	1
+Ā	la ding zi mu	1

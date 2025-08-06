@@ -5,7 +5,7 @@ file_begin='''# Rime dictionary
 #
 #
 ---
-name: icon_emoji
+name: icon_symbols
 version: "2025-08-06"
 sort: by_weight
 ...
@@ -44,6 +44,5 @@ def process_file(input_file, output_file):
         for line in result:
             f.write(line + "\t1\n")
 
-# 处理 all_emoji.txt
-process_file("all_emoji.txt", "../rime/rime_icons/icon_emoji.dict.yaml")
-
+# 处理 all_kaomoji.txt
+process_file("all_symbols.txt", "../rime/rime_icons/icon_symbols.dict.yaml")

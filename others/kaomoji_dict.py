@@ -5,8 +5,8 @@ file_begin='''# Rime dictionary
 #
 #
 ---
-name: ext
-version: "2024-05-21"
+name: icon_kaomoji
+version: "2025-08-06"
 sort: by_weight
 ...
 

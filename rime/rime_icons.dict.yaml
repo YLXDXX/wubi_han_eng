@@ -3,9 +3,10 @@
 
 ---
 name: rime_icons
-version: "2025-01-07"
+version: "2025-08-06"
 import_tables:
   - rime_icons/icon_kaomoji
-  - rime_icons/icons_emoji
+  - rime_icons/icon_emoji
+  - rime_icons/icon_symbols
 ...
 

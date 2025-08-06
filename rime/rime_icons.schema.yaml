@@ -10,7 +10,7 @@ schema:
   author:
     - shui
   description: |
-    表情输入：表情和颜文字
+    表颜符输入：表情、颜文字、符号
   dependencies:
     
 

@@ -7,6 +7,8 @@ version: "2.0"
 sort: by_weight
 import_tables:
   - wubi98_dz
+  - easy_en.my_words_B #一些符号输入，避免很短的英文匹配
+  - easy_en.my_words_C #常用英文符号（2到3个字母）
 columns:
   - text
   - code

@@ -21,8 +21,6 @@ encoder:
       formula: "AaBaCaCb"
     - length_in_range: [4, 32]
       formula: "AaBaCaZa"
-import_tables:
-  - easy_en.my_words_B #一些符号输入，避免很短的英文匹配
 ...
 工	a	364350	aaaa
 戈	a	364349	agny
